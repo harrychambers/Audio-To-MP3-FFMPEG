@@ -1,0 +1,14 @@
+prefix=/Users/harrychambers/desktop/ffmpeg-apple-arm64-build-master/out
+exec_prefix=${prefix}
+libdir=/Users/harrychambers/desktop/ffmpeg-apple-arm64-build-master/out/lib
+includedir=/Users/harrychambers/desktop/ffmpeg-apple-arm64-build-master/out/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 58.2.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil -pthread -lm -Wl,-framework,OpenCL -framework VideoToolbox -framework CoreFoundation -framework CoreMedia -framework CoreVideo -framework CoreServices
+Libs.private: 
+Cflags: -I${includedir}

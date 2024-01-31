@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXFileReference section */
+		1A5FFCD92B62AF4D00E6E5FE /* dshow_crossbar.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dshow_crossbar.c; sourceTree = "<group>"; };
+		1A5FFCDA2B62AF4D00E6E5FE /* pulse_audio_dec.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pulse_audio_dec.c; sourceTree = "<group>"; };
+		1A5FFCDB2B62AF4D00E6E5FE /* dshow_filter.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dshow_filter.c; sourceTree = "<group>"; };
+		1A5FFCDC2B62AF4D00E6E5FE /* timefilter.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = timefilter.c; sourceTree = "<group>"; };
+		1A5FFCDD2B62AF4D00E6E5FE /* utils.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = utils.o; sourceTree = "<group>"; };
+		1A5FFCDE2B62AF4D00E6E5FE /* libavdevice.v */ = {isa = PBXFileReference; lastKnownFileType = text; path = libavdevice.v; sourceTree = "<group>"; };
+		1A5FFCDF2B62AF4D00E6E5FE /* dshow_capture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dshow_capture.h; sourceTree = "<group>"; };
+		1A5FFCE02B62AF4D00E6E5FE /* internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = internal.h; sourceTree = "<group>"; };
+		1A5FFCE12B62AF4D00E6E5FE /* v4l2enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = v4l2enc.c; sourceTree = "<group>"; };
+		1A5FFCE22B62AF4D00E6E5FE /* file_open.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = file_open.c; sourceTree = "<group>"; };
+		1A5FFCE32B62AF4D00E6E5FE /* alsa_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = alsa_enc.c; sourceTree = "<group>"; };
+		1A5FFCE42B62AF4D00E6E5FE /* version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		1A5FFCE52B62AF4D00E6E5FE /* v4l2-common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "v4l2-common.h"; sourceTree = "<group>"; };
+		1A5FFCE62B62AF4D00E6E5FE /* version.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = version.o; sourceTree = "<group>"; };
+		1A5FFCE72B62AF4D00E6E5FE /* decklink_dec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = decklink_dec.h; sourceTree = "<group>"; };
+		1A5FFCE82B62AF4D00E6E5FE /* fbdev_common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fbdev_common.h; sourceTree = "<group>"; };
+		1A5FFCE92B62AF4D00E6E5FE /* sndio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sndio.h; sourceTree = "<group>"; };
+		1A5FFCEA2B62AF4D00E6E5FE /* avdevice.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = avdevice.o; sourceTree = "<group>"; };
+		1A5FFCEB2B62AF4D00E6E5FE /* oss.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = oss.h; sourceTree = "<group>"; };
+		1A5FFCEC2B62AF4D00E6E5FE /* oss_dec.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = oss_dec.c; sourceTree = "<group>"; };
+		1A5FFCED2B62AF4D00E6E5FE /* avdevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = avdevice.h; sourceTree = "<group>"; };
+		1A5FFCEE2B62AF4D00E6E5FE /* iec61883.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = iec61883.c; sourceTree = "<group>"; };
+		1A5FFCEF2B62AF4D00E6E5FE /* decklink_common_c.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = decklink_common_c.h; sourceTree = "<group>"; };
+		1A5FFCF02B62AF4D00E6E5FE /* lavfi.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = lavfi.o; sourceTree = "<group>"; };
+		1A5FFCF12B62AF4D00E6E5FE /* avfoundation.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = avfoundation.o; sourceTree = "<group>"; };
+		1A5FFCF22B62AF4D00E6E5FE /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		1A5FFCF32B62AF4D00E6E5FE /* oss_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = oss_enc.c; sourceTree = "<group>"; };
+		1A5FFCF42B62AF4D00E6E5FE /* sdl2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sdl2.c; sourceTree = "<group>"; };
+		1A5FFCF52B62AF4D00E6E5FE /* sdl2.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = sdl2.d; sourceTree = "<group>"; };
+		1A5FFCF62B62AF4D00E6E5FE /* avdeviceres.rc */ = {isa = PBXFileReference; lastKnownFileType = text; path = avdeviceres.rc; sourceTree = "<group>"; };
+		1A5FFCF72B62AF4D00E6E5FE /* decklink_enc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = decklink_enc.h; sourceTree = "<group>"; };
+		1A5FFCF82B62AF4D00E6E5FE /* libavdevice.pc */ = {isa = PBXFileReference; lastKnownFileType = text; path = libavdevice.pc; sourceTree = "<group>"; };
+		1A5FFCF92B62AF4D00E6E5FE /* tests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tests; sourceTree = "<group>"; };
+		1A5FFCFA2B62AF4D00E6E5FE /* alsa_dec.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = alsa_dec.c; sourceTree = "<group>"; };
+		1A5FFCFB2B62AF4D00E6E5FE /* decklink_common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = decklink_common.h; sourceTree = "<group>"; };
+		1A5FFCFC2B62AF4D00E6E5FE /* jack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jack.c; sourceTree = "<group>"; };
+		1A5FFCFD2B62AF4D00E6E5FE /* dshow_common.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dshow_common.c; sourceTree = "<group>"; };
+		1A5FFCFE2B62AF4D00E6E5FE /* alsa.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = alsa.c; sourceTree = "<group>"; };
+		1A5FFCFF2B62AF4D00E6E5FE /* alldevices.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = alldevices.o; sourceTree = "<group>"; };
+		1A5FFD002B62AF4D00E6E5FE /* audiotoolbox.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = audiotoolbox.d; sourceTree = "<group>"; };
+		1A5FFD012B62AF4D00E6E5FE /* xv.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = xv.c; sourceTree = "<group>"; };
+		1A5FFD022B62AF4D00E6E5FE /* pulse_audio_common.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pulse_audio_common.c; sourceTree = "<group>"; };
+		1A5FFD032B62AF4D00E6E5FE /* audiotoolbox.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = audiotoolbox.m; sourceTree = "<group>"; };
+		1A5FFD042B62AF4D00E6E5FE /* pulse_audio_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pulse_audio_enc.c; sourceTree = "<group>"; };
+		1A5FFD052B62AF4D00E6E5FE /* decklink_dec.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = decklink_dec.cpp; sourceTree = "<group>"; };
+		1A5FFD062B62AF4D00E6E5FE /* libavdevice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavdevice.a; sourceTree = "<group>"; };
+		1A5FFD072B62AF4D00E6E5FE /* timefilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = timefilter.h; sourceTree = "<group>"; };
+		1A5FFD082B62AF4D00E6E5FE /* android_camera.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = android_camera.c; sourceTree = "<group>"; };
+		1A5FFD092B62AF4D00E6E5FE /* utils.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = utils.c; sourceTree = "<group>"; };
+		1A5FFD0A2B62AF4D00E6E5FE /* utils.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = utils.d; sourceTree = "<group>"; };
+		1A5FFD0B2B62AF4D00E6E5FE /* reverse.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = reverse.c; sourceTree = "<group>"; };
+		1A5FFD0C2B62AF4D00E6E5FE /* outdev_list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = outdev_list.c; sourceTree = "<group>"; };
+		1A5FFD0D2B62AF4D00E6E5FE /* opengl_enc_shaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = opengl_enc_shaders.h; sourceTree = "<group>"; };
+		1A5FFD0E2B62AF4D00E6E5FE /* fbdev_dec.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fbdev_dec.c; sourceTree = "<group>"; };
+		1A5FFD0F2B62AF4D00E6E5FE /* kmsgrab.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = kmsgrab.c; sourceTree = "<group>"; };
+		1A5FFD102B62AF4D00E6E5FE /* dshow_enumpins.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dshow_enumpins.c; sourceTree = "<group>"; };
+		1A5FFD112B62AF4D00E6E5FE /* version_major.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = version_major.h; sourceTree = "<group>"; };
+		1A5FFD122B62AF4D00E6E5FE /* lavfi.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = lavfi.d; sourceTree = "<group>"; };
+		1A5FFD132B62AF4D00E6E5FE /* lavfi.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lavfi.c; sourceTree = "<group>"; };
+		1A5FFD142B62AF4D00E6E5FE /* decklink_enc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = decklink_enc.cpp; sourceTree = "<group>"; };
+		1A5FFD152B62AF4D00E6E5FE /* avdevice.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = avdevice.c; sourceTree = "<group>"; };
+		1A5FFD162B62AF4D00E6E5FE /* oss.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = oss.c; sourceTree = "<group>"; };
+		1A5FFD172B62AF4D00E6E5FE /* avdevice.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = avdevice.d; sourceTree = "<group>"; };
+		1A5FFD182B62AF4D00E6E5FE /* sndio.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sndio.c; sourceTree = "<group>"; };
+		1A5FFD192B62AF4D00E6E5FE /* fbdev_common.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fbdev_common.c; sourceTree = "<group>"; };
+		1A5FFD1A2B62AF4D00E6E5FE /* openal-dec.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "openal-dec.c"; sourceTree = "<group>"; };
+		1A5FFD1B2B62AF4D00E6E5FE /* bktr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bktr.c; sourceTree = "<group>"; };
+		1A5FFD1C2B62AF4D00E6E5FE /* libavdevice.version */ = {isa = PBXFileReference; lastKnownFileType = text; path = libavdevice.version; sourceTree = "<group>"; };
+		1A5FFD1D2B62AF4D00E6E5FE /* version.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = version.d; sourceTree = "<group>"; };
+		1A5FFD1E2B62AF4D00E6E5FE /* sndio_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sndio_enc.c; sourceTree = "<group>"; };
+		1A5FFD1F2B62AF4D00E6E5FE /* v4l2-common.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "v4l2-common.c"; sourceTree = "<group>"; };
+		1A5FFD202B62AF4D00E6E5FE /* version.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = version.c; sourceTree = "<group>"; };
+		1A5FFD212B62AF4D00E6E5FE /* sndio_dec.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sndio_dec.c; sourceTree = "<group>"; };
+		1A5FFD222B62AF4D00E6E5FE /* decklink_dec_c.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = decklink_dec_c.c; sourceTree = "<group>"; };
+		1A5FFD232B62AF4D00E6E5FE /* dshow_enummediatypes.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dshow_enummediatypes.c; sourceTree = "<group>"; };
+		1A5FFD242B62AF4D00E6E5FE /* sdl2.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = sdl2.o; sourceTree = "<group>"; };
+		1A5FFD252B62AF4D00E6E5FE /* opengl_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = opengl_enc.c; sourceTree = "<group>"; };
+		1A5FFD262B62AF4D00E6E5FE /* dshow.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dshow.c; sourceTree = "<group>"; };
+		1A5FFD272B62AF4D00E6E5FE /* v4l2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = v4l2.c; sourceTree = "<group>"; };
+		1A5FFD282B62AF4D00E6E5FE /* libcdio.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = libcdio.c; sourceTree = "<group>"; };
+		1A5FFD292B62AF4D00E6E5FE /* avfoundation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = avfoundation.m; sourceTree = "<group>"; };
+		1A5FFD2A2B62AF4D00E6E5FE /* caca.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = caca.c; sourceTree = "<group>"; };
+		1A5FFD2B2B62AF4D00E6E5FE /* avfoundation.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = avfoundation.d; sourceTree = "<group>"; };
+		1A5FFD2C2B62AF4D00E6E5FE /* fbdev_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fbdev_enc.c; sourceTree = "<group>"; };
+		1A5FFD2D2B62AF4D00E6E5FE /* pulse_audio_common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pulse_audio_common.h; sourceTree = "<group>"; };
+		1A5FFD2E2B62AF4D00E6E5FE /* audiotoolbox.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = audiotoolbox.o; sourceTree = "<group>"; };
+		1A5FFD2F2B62AF4D00E6E5FE /* libdc1394.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = libdc1394.c; sourceTree = "<group>"; };
+		1A5FFD302B62AF4D00E6E5FE /* xcbgrab.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = xcbgrab.c; sourceTree = "<group>"; };
+		1A5FFD312B62AF4D00E6E5FE /* vfwcap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = vfwcap.c; sourceTree = "<group>"; };
+		1A5FFD322B62AF4D00E6E5FE /* indev_list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = indev_list.c; sourceTree = "<group>"; };
+		1A5FFD332B62AF4D00E6E5FE /* alldevices.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = alldevices.d; sourceTree = "<group>"; };
+		1A5FFD342B62AF4D00E6E5FE /* decklink_common.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = decklink_common.cpp; sourceTree = "<group>"; };
+		1A5FFD352B62AF4D00E6E5FE /* decklink_enc_c.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = decklink_enc_c.c; sourceTree = "<group>"; };
+		1A5FFD362B62AF4D00E6E5FE /* alldevices.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = alldevices.c; sourceTree = "<group>"; };
+		1A5FFD372B62AF4D00E6E5FE /* gdigrab.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gdigrab.c; sourceTree = "<group>"; };
+		1A5FFD382B62AF4D00E6E5FE /* alsa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = alsa.h; sourceTree = "<group>"; };
+		1A5FFD392B62AF4D00E6E5FE /* dshow_pin.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dshow_pin.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1A5FFCD32B62AF4D00E6E5FE = {
+			isa = PBXGroup;
+			children = (
+				1A5FFCD92B62AF4D00E6E5FE /* dshow_crossbar.c */,
+				1A5FFCDA2B62AF4D00E6E5FE /* pulse_audio_dec.c */,
+				1A5FFCDB2B62AF4D00E6E5FE /* dshow_filter.c */,
+				1A5FFCDC2B62AF4D00E6E5FE /* timefilter.c */,
+				1A5FFCDD2B62AF4D00E6E5FE /* utils.o */,
+				1A5FFCDE2B62AF4D00E6E5FE /* libavdevice.v */,
+				1A5FFCDF2B62AF4D00E6E5FE /* dshow_capture.h */,
+				1A5FFCE02B62AF4D00E6E5FE /* internal.h */,
+				1A5FFCE12B62AF4D00E6E5FE /* v4l2enc.c */,
+				1A5FFCE22B62AF4D00E6E5FE /* file_open.c */,
+				1A5FFCE32B62AF4D00E6E5FE /* alsa_enc.c */,
+				1A5FFCE42B62AF4D00E6E5FE /* version.h */,
+				1A5FFCE52B62AF4D00E6E5FE /* v4l2-common.h */,
+				1A5FFCE62B62AF4D00E6E5FE /* version.o */,
+				1A5FFCE72B62AF4D00E6E5FE /* decklink_dec.h */,
+				1A5FFCE82B62AF4D00E6E5FE /* fbdev_common.h */,
+				1A5FFCE92B62AF4D00E6E5FE /* sndio.h */,
+				1A5FFCEA2B62AF4D00E6E5FE /* avdevice.o */,
+				1A5FFCEB2B62AF4D00E6E5FE /* oss.h */,
+				1A5FFCEC2B62AF4D00E6E5FE /* oss_dec.c */,
+				1A5FFCED2B62AF4D00E6E5FE /* avdevice.h */,
+				1A5FFCEE2B62AF4D00E6E5FE /* iec61883.c */,
+				1A5FFCEF2B62AF4D00E6E5FE /* decklink_common_c.h */,
+				1A5FFCF02B62AF4D00E6E5FE /* lavfi.o */,
+				1A5FFCF12B62AF4D00E6E5FE /* avfoundation.o */,
+				1A5FFCF22B62AF4D00E6E5FE /* Makefile */,
+				1A5FFCF32B62AF4D00E6E5FE /* oss_enc.c */,
+				1A5FFCF42B62AF4D00E6E5FE /* sdl2.c */,
+				1A5FFCF52B62AF4D00E6E5FE /* sdl2.d */,
+				1A5FFCF62B62AF4D00E6E5FE /* avdeviceres.rc */,
+				1A5FFCF72B62AF4D00E6E5FE /* decklink_enc.h */,
+				1A5FFCF82B62AF4D00E6E5FE /* libavdevice.pc */,
+				1A5FFCF92B62AF4D00E6E5FE /* tests */,
+				1A5FFCFA2B62AF4D00E6E5FE /* alsa_dec.c */,
+				1A5FFCFB2B62AF4D00E6E5FE /* decklink_common.h */,
+				1A5FFCFC2B62AF4D00E6E5FE /* jack.c */,
+				1A5FFCFD2B62AF4D00E6E5FE /* dshow_common.c */,
+				1A5FFCFE2B62AF4D00E6E5FE /* alsa.c */,
+				1A5FFCFF2B62AF4D00E6E5FE /* alldevices.o */,
+				1A5FFD002B62AF4D00E6E5FE /* audiotoolbox.d */,
+				1A5FFD012B62AF4D00E6E5FE /* xv.c */,
+				1A5FFD022B62AF4D00E6E5FE /* pulse_audio_common.c */,
+				1A5FFD032B62AF4D00E6E5FE /* audiotoolbox.m */,
+				1A5FFD042B62AF4D00E6E5FE /* pulse_audio_enc.c */,
+				1A5FFD052B62AF4D00E6E5FE /* decklink_dec.cpp */,
+				1A5FFD062B62AF4D00E6E5FE /* libavdevice.a */,
+				1A5FFD072B62AF4D00E6E5FE /* timefilter.h */,
+				1A5FFD082B62AF4D00E6E5FE /* android_camera.c */,
+				1A5FFD092B62AF4D00E6E5FE /* utils.c */,
+				1A5FFD0A2B62AF4D00E6E5FE /* utils.d */,
+				1A5FFD0B2B62AF4D00E6E5FE /* reverse.c */,
+				1A5FFD0C2B62AF4D00E6E5FE /* outdev_list.c */,
+				1A5FFD0D2B62AF4D00E6E5FE /* opengl_enc_shaders.h */,
+				1A5FFD0E2B62AF4D00E6E5FE /* fbdev_dec.c */,
+				1A5FFD0F2B62AF4D00E6E5FE /* kmsgrab.c */,
+				1A5FFD102B62AF4D00E6E5FE /* dshow_enumpins.c */,
+				1A5FFD112B62AF4D00E6E5FE /* version_major.h */,
+				1A5FFD122B62AF4D00E6E5FE /* lavfi.d */,
+				1A5FFD132B62AF4D00E6E5FE /* lavfi.c */,
+				1A5FFD142B62AF4D00E6E5FE /* decklink_enc.cpp */,
+				1A5FFD152B62AF4D00E6E5FE /* avdevice.c */,
+				1A5FFD162B62AF4D00E6E5FE /* oss.c */,
+				1A5FFD172B62AF4D00E6E5FE /* avdevice.d */,
+				1A5FFD182B62AF4D00E6E5FE /* sndio.c */,
+				1A5FFD192B62AF4D00E6E5FE /* fbdev_common.c */,
+				1A5FFD1A2B62AF4D00E6E5FE /* openal-dec.c */,
+				1A5FFD1B2B62AF4D00E6E5FE /* bktr.c */,
+				1A5FFD1C2B62AF4D00E6E5FE /* libavdevice.version */,
+				1A5FFD1D2B62AF4D00E6E5FE /* version.d */,
+				1A5FFD1E2B62AF4D00E6E5FE /* sndio_enc.c */,
+				1A5FFD1F2B62AF4D00E6E5FE /* v4l2-common.c */,
+				1A5FFD202B62AF4D00E6E5FE /* version.c */,
+				1A5FFD212B62AF4D00E6E5FE /* sndio_dec.c */,
+				1A5FFD222B62AF4D00E6E5FE /* decklink_dec_c.c */,
+				1A5FFD232B62AF4D00E6E5FE /* dshow_enummediatypes.c */,
+				1A5FFD242B62AF4D00E6E5FE /* sdl2.o */,
+				1A5FFD252B62AF4D00E6E5FE /* opengl_enc.c */,
+				1A5FFD262B62AF4D00E6E5FE /* dshow.c */,
+				1A5FFD272B62AF4D00E6E5FE /* v4l2.c */,
+				1A5FFD282B62AF4D00E6E5FE /* libcdio.c */,
+				1A5FFD292B62AF4D00E6E5FE /* avfoundation.m */,
+				1A5FFD2A2B62AF4D00E6E5FE /* caca.c */,
+				1A5FFD2B2B62AF4D00E6E5FE /* avfoundation.d */,
+				1A5FFD2C2B62AF4D00E6E5FE /* fbdev_enc.c */,
+				1A5FFD2D2B62AF4D00E6E5FE /* pulse_audio_common.h */,
+				1A5FFD2E2B62AF4D00E6E5FE /* audiotoolbox.o */,
+				1A5FFD2F2B62AF4D00E6E5FE /* libdc1394.c */,
+				1A5FFD302B62AF4D00E6E5FE /* xcbgrab.c */,
+				1A5FFD312B62AF4D00E6E5FE /* vfwcap.c */,
+				1A5FFD322B62AF4D00E6E5FE /* indev_list.c */,
+				1A5FFD332B62AF4D00E6E5FE /* alldevices.d */,
+				1A5FFD342B62AF4D00E6E5FE /* decklink_common.cpp */,
+				1A5FFD352B62AF4D00E6E5FE /* decklink_enc_c.c */,
+				1A5FFD362B62AF4D00E6E5FE /* alldevices.c */,
+				1A5FFD372B62AF4D00E6E5FE /* gdigrab.c */,
+				1A5FFD382B62AF4D00E6E5FE /* alsa.h */,
+				1A5FFD392B62AF4D00E6E5FE /* dshow_pin.c */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		1A5FFCD82B62AF4D00E6E5FE /* libavdevice */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 1A5FFD3A2B62AF4D00E6E5FE /* Build configuration list for PBXLegacyTarget "libavdevice" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/harrychambers/Desktop/ffmpeg-apple-arm64-build-master/ffmpeg/ffmpeg-6.0/libavdevice";
+			dependencies = (
+			);
+			name = libavdevice;
+			passBuildSettingsInEnvironment = 1;
+			productName = libavdevice;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		1A5FFCD42B62AF4D00E6E5FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+			};
+			buildConfigurationList = 1A5FFCD72B62AF4D00E6E5FE /* Build configuration list for PBXProject "libavdevice" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A5FFCD32B62AF4D00E6E5FE;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A5FFCD82B62AF4D00E6E5FE /* libavdevice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		1A5FFCD52B62AF4D00E6E5FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1A5FFCD62B62AF4D00E6E5FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		1A5FFD3B2B62AF4D00E6E5FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = libavdevice;
+			};
+			name = Debug;
+		};
+		1A5FFD3C2B62AF4D00E6E5FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = libavdevice;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A5FFCD72B62AF4D00E6E5FE /* Build configuration list for PBXProject "libavdevice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A5FFCD52B62AF4D00E6E5FE /* Debug */,
+				1A5FFCD62B62AF4D00E6E5FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A5FFD3A2B62AF4D00E6E5FE /* Build configuration list for PBXLegacyTarget "libavdevice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A5FFD3B2B62AF4D00E6E5FE /* Debug */,
+				1A5FFD3C2B62AF4D00E6E5FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A5FFCD42B62AF4D00E6E5FE /* Project object */;
+}

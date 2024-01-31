@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A234DE52B61AA0A00784944 /* Audio_to_MP3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A234DE42B61AA0A00784944 /* Audio_to_MP3App.swift */; };
+		1A234DE72B61AA0A00784944 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A234DE62B61AA0A00784944 /* ContentView.swift */; };
+		1A234DE92B61AA0B00784944 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A234DE82B61AA0B00784944 /* Assets.xcassets */; };
+		1A234DEC2B61AA0B00784944 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A234DEB2B61AA0B00784944 /* Preview Assets.xcassets */; };
+		1A5F0C462B62AF5300E6E5FE /* COPYING.GPLv3 in Resources */ = {isa = PBXBuildFile; fileRef = 1A5F0C1F2B62AF4E00E6E5FE /* COPYING.GPLv3 */; };
+		1A5F0C472B62AF5300E6E5FE /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 1A5F0C202B62AF4E00E6E5FE /* LICENSE.md */; };
+		1A5F0C482B62AF5300E6E5FE /* Changelog in Resources */ = {isa = PBXBuildFile; fileRef = 1A5F0C212B62AF4E00E6E5FE /* Changelog */; };
+		1A5F0C492B62AF5300E6E5FE /* libavcodec in Resources */ = {isa = PBXBuildFile; fileRef = 1A5F0C222B62AF4E00E6E5FE /* libavcodec */; };
+		1A5F0C4A2B62AF5300E6E5FE /* MAINTAINERS in Resources */ = {isa = PBXBuildFile; fileRef = 1A5F0C232B62AF4E00E6E5FE /* MAINTAINERS */; };
+		1A5F0C4B2B62AF5300E6E5FE /* configure in Resources */ = {isa = PBXBuildFile; fileRef = 1A5F0C242B62AF4E00E6E5FE /* configure */; };
+		1A5F0C4C2B62AF5300E6E5FE /* libswresample in Resources */ = {isa = PBXBuildFile; fileRef = 1A5F0C252B62AF4F00E6E5FE /* libswresample */; };
+		1A5F0C4D2B62AF5300E6E5FE /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 1A5F0C262B62AF4F00E6E5FE /* Makefile */; };
+		1A5F0C4E2B62AF5300E6E5FE /* ffmpeg_g in Resources */ = {isa = PBXBuildFile; fileRef = 1A5F0C272B62AF4F00E6E5FE /* ffmpeg_g */; };
+		1A5F0C4F2B62AF5300E6E5FE /* compat in Resources */ = {isa = PBXBuildFile; fileRef = 1A5F0C282B62AF4F00E6E5FE /* compat */; };
+		1A5F0C502B62AF5300E6E5FE /* CONTRIBUTING.md in Resources */ = {isa = PBXBuildFile; fileRef = 1A5F0C2A2B62AF4F00E6E5FE /* CONTRIBUTING.md */; };
+		1A5F0C512B62AF5300E6E5FE /* presets in Resources */ = {isa = PBXBuildFile; fileRef = 1A5F0C2B2B62AF4F00E6E5FE /* presets */; };
+		1A5F0C522B62AF5300E6E5FE /* doc in Resources */ = {isa = PBXBuildFile; fileRef = 1A5F0C2C2B62AF4F00E6E5FE /* doc */; };
+		1A5F0C532B62AF5300E6E5FE /* RELEASE in Resources */ = {isa = PBXBuildFile; fileRef = 1A5F0C2D2B62AF4F00E6E5FE /* RELEASE */; };
+		1A5F0C542B62AF5300E6E5FE /* ffplay in Resources */ = {isa = PBXBuildFile; fileRef = 1A5F0C2E2B62AF5000E6E5FE /* ffplay */; };
+		1A5F0C552B62AF5300E6E5FE /* ffprobe in Resources */ = {isa = PBXBuildFile; fileRef = 1A5F0C2F2B62AF5000E6E5FE /* ffprobe */; };
+		1A5F0C562B62AF5300E6E5FE /* COPYING.LGPLv3 in Resources */ = {isa = PBXBuildFile; fileRef = 1A5F0C302B62AF5000E6E5FE /* COPYING.LGPLv3 */; };
+		1A5F0C572B62AF5300E6E5FE /* libpostproc in Resources */ = {isa = PBXBuildFile; fileRef = 1A5F0C312B62AF5000E6E5FE /* libpostproc */; };
+		1A5F0C582B62AF5300E6E5FE /* tests in Resources */ = {isa = PBXBuildFile; fileRef = 1A5F0C322B62AF5000E6E5FE /* tests */; };
+		1A5F0C592B62AF5300E6E5FE /* tools in Resources */ = {isa = PBXBuildFile; fileRef = 1A5F0C332B62AF5000E6E5FE /* tools */; };
+		1A5F0C5A2B62AF5300E6E5FE /* CREDITS in Resources */ = {isa = PBXBuildFile; fileRef = 1A5F0C352B62AF5100E6E5FE /* CREDITS */; };
+		1A5F0C5B2B62AF5300E6E5FE /* ffprobe_g in Resources */ = {isa = PBXBuildFile; fileRef = 1A5F0C362B62AF5100E6E5FE /* ffprobe_g */; };
+		1A5F0C5C2B62AF5300E6E5FE /* INSTALL.md in Resources */ = {isa = PBXBuildFile; fileRef = 1A5F0C372B62AF5100E6E5FE /* INSTALL.md */; };
+		1A5F0C5D2B62AF5300E6E5FE /* libswscale in Resources */ = {isa = PBXBuildFile; fileRef = 1A5F0C382B62AF5100E6E5FE /* libswscale */; };
+		1A5F0C5E2B62AF5300E6E5FE /* RELEASE_NOTES in Resources */ = {isa = PBXBuildFile; fileRef = 1A5F0C392B62AF5100E6E5FE /* RELEASE_NOTES */; };
+		1A5F0C5F2B62AF5300E6E5FE /* libavformat in Resources */ = {isa = PBXBuildFile; fileRef = 1A5F0C3A2B62AF5100E6E5FE /* libavformat */; };
+		1A5F0C602B62AF5300E6E5FE /* VERSION in Resources */ = {isa = PBXBuildFile; fileRef = 1A5F0C3B2B62AF5100E6E5FE /* VERSION */; };
+		1A5F0C612B62AF5300E6E5FE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1A5F0C3C2B62AF5100E6E5FE /* README.md */; };
+		1A5F0C622B62AF5300E6E5FE /* COPYING.GPLv2 in Resources */ = {isa = PBXBuildFile; fileRef = 1A5F0C3D2B62AF5200E6E5FE /* COPYING.GPLv2 */; };
+		1A5F0C632B62AF5300E6E5FE /* ffplay_g in Resources */ = {isa = PBXBuildFile; fileRef = 1A5F0C3E2B62AF5200E6E5FE /* ffplay_g */; };
+		1A5F0C642B62AF5300E6E5FE /* fftools in Resources */ = {isa = PBXBuildFile; fileRef = 1A5F0C3F2B62AF5200E6E5FE /* fftools */; };
+		1A5F0C652B62AF5300E6E5FE /* libavfilter in Resources */ = {isa = PBXBuildFile; fileRef = 1A5F0C402B62AF5200E6E5FE /* libavfilter */; };
+		1A5F0C662B62AF5300E6E5FE /* libavdevice in Resources */ = {isa = PBXBuildFile; fileRef = 1A5F0C412B62AF5200E6E5FE /* libavdevice */; };
+		1A5F0C672B62AF5300E6E5FE /* ffbuild in Resources */ = {isa = PBXBuildFile; fileRef = 1A5F0C422B62AF5200E6E5FE /* ffbuild */; };
+		1A5F0C682B62AF5300E6E5FE /* ffmpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1A5F0C432B62AF5200E6E5FE /* ffmpeg */; };
+		1A5F0C692B62AF5300E6E5FE /* COPYING.LGPLv2.1 in Resources */ = {isa = PBXBuildFile; fileRef = 1A5F0C442B62AF5200E6E5FE /* COPYING.LGPLv2.1 */; };
+		1A5F0C6A2B62AF5300E6E5FE /* libavutil in Resources */ = {isa = PBXBuildFile; fileRef = 1A5F0C452B62AF5300E6E5FE /* libavutil */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A234DE12B61AA0A00784944 /* Audio to MP3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Audio to MP3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A234DE42B61AA0A00784944 /* Audio_to_MP3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio_to_MP3App.swift; sourceTree = "<group>"; };
+		1A234DE62B61AA0A00784944 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1A234DE82B61AA0B00784944 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A234DEB2B61AA0B00784944 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1A234DED2B61AA0B00784944 /* Audio_to_MP3.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Audio_to_MP3.entitlements; sourceTree = "<group>"; };
+		1A5F0C1F2B62AF4E00E6E5FE /* COPYING.GPLv3 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING.GPLv3; sourceTree = "<group>"; };
+		1A5F0C202B62AF4E00E6E5FE /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		1A5F0C212B62AF4E00E6E5FE /* Changelog */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Changelog; sourceTree = "<group>"; };
+		1A5F0C222B62AF4E00E6E5FE /* libavcodec */ = {isa = PBXFileReference; lastKnownFileType = folder; path = libavcodec; sourceTree = "<group>"; };
+		1A5F0C232B62AF4E00E6E5FE /* MAINTAINERS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MAINTAINERS; sourceTree = "<group>"; };
+		1A5F0C242B62AF4E00E6E5FE /* configure */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = configure; sourceTree = "<group>"; };
+		1A5F0C252B62AF4F00E6E5FE /* libswresample */ = {isa = PBXFileReference; lastKnownFileType = folder; path = libswresample; sourceTree = "<group>"; };
+		1A5F0C262B62AF4F00E6E5FE /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		1A5F0C272B62AF4F00E6E5FE /* ffmpeg_g */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = ffmpeg_g; sourceTree = "<group>"; };
+		1A5F0C282B62AF4F00E6E5FE /* compat */ = {isa = PBXFileReference; lastKnownFileType = folder; path = compat; sourceTree = "<group>"; };
+		1A5F0C292B62AF4F00E6E5FE /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		1A5F0C2A2B62AF4F00E6E5FE /* CONTRIBUTING.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
+		1A5F0C2B2B62AF4F00E6E5FE /* presets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = presets; sourceTree = "<group>"; };
+		1A5F0C2C2B62AF4F00E6E5FE /* doc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = doc; sourceTree = "<group>"; };
+		1A5F0C2D2B62AF4F00E6E5FE /* RELEASE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RELEASE; sourceTree = "<group>"; };
+		1A5F0C2E2B62AF5000E6E5FE /* ffplay */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = ffplay; sourceTree = "<group>"; };
+		1A5F0C2F2B62AF5000E6E5FE /* ffprobe */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = ffprobe; sourceTree = "<group>"; };
+		1A5F0C302B62AF5000E6E5FE /* COPYING.LGPLv3 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING.LGPLv3; sourceTree = "<group>"; };
+		1A5F0C312B62AF5000E6E5FE /* libpostproc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = libpostproc; sourceTree = "<group>"; };
+		1A5F0C322B62AF5000E6E5FE /* tests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tests; sourceTree = "<group>"; };
+		1A5F0C332B62AF5000E6E5FE /* tools */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tools; sourceTree = "<group>"; };
+		1A5F0C342B62AF5100E6E5FE /* config_components.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config_components.h; sourceTree = "<group>"; };
+		1A5F0C352B62AF5100E6E5FE /* CREDITS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CREDITS; sourceTree = "<group>"; };
+		1A5F0C362B62AF5100E6E5FE /* ffprobe_g */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = ffprobe_g; sourceTree = "<group>"; };
+		1A5F0C372B62AF5100E6E5FE /* INSTALL.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = INSTALL.md; sourceTree = "<group>"; };
+		1A5F0C382B62AF5100E6E5FE /* libswscale */ = {isa = PBXFileReference; lastKnownFileType = folder; path = libswscale; sourceTree = "<group>"; };
+		1A5F0C392B62AF5100E6E5FE /* RELEASE_NOTES */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RELEASE_NOTES; sourceTree = "<group>"; };
+		1A5F0C3A2B62AF5100E6E5FE /* libavformat */ = {isa = PBXFileReference; lastKnownFileType = folder; path = libavformat; sourceTree = "<group>"; };
+		1A5F0C3B2B62AF5100E6E5FE /* VERSION */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VERSION; sourceTree = "<group>"; };
+		1A5F0C3C2B62AF5100E6E5FE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1A5F0C3D2B62AF5200E6E5FE /* COPYING.GPLv2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING.GPLv2; sourceTree = "<group>"; };
+		1A5F0C3E2B62AF5200E6E5FE /* ffplay_g */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = ffplay_g; sourceTree = "<group>"; };
+		1A5F0C3F2B62AF5200E6E5FE /* fftools */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fftools; sourceTree = "<group>"; };
+		1A5F0C402B62AF5200E6E5FE /* libavfilter */ = {isa = PBXFileReference; lastKnownFileType = folder; path = libavfilter; sourceTree = "<group>"; };
+		1A5F0C412B62AF5200E6E5FE /* libavdevice */ = {isa = PBXFileReference; lastKnownFileType = folder; path = libavdevice; sourceTree = "<group>"; };
+		1A5F0C422B62AF5200E6E5FE /* ffbuild */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ffbuild; sourceTree = "<group>"; };
+		1A5F0C432B62AF5200E6E5FE /* ffmpeg */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = ffmpeg; sourceTree = "<group>"; };
+		1A5F0C442B62AF5200E6E5FE /* COPYING.LGPLv2.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; path = COPYING.LGPLv2.1; sourceTree = "<group>"; };
+		1A5F0C452B62AF5300E6E5FE /* libavutil */ = {isa = PBXFileReference; lastKnownFileType = folder; path = libavutil; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A234DDE2B61AA0A00784944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A234DD82B61AA0A00784944 = {
+			isa = PBXGroup;
+			children = (
+				1A234DE32B61AA0A00784944 /* Audio to MP3 */,
+				1A234DE22B61AA0A00784944 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A234DE22B61AA0A00784944 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A234DE12B61AA0A00784944 /* Audio to MP3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A234DE32B61AA0A00784944 /* Audio to MP3 */ = {
+			isa = PBXGroup;
+			children = (
+				1A5FEDF22B62AF2800E6E5FE /* ffmpeg */,
+				1A234DE42B61AA0A00784944 /* Audio_to_MP3App.swift */,
+				1A234DE62B61AA0A00784944 /* ContentView.swift */,
+				1A234DE82B61AA0B00784944 /* Assets.xcassets */,
+				1A234DED2B61AA0B00784944 /* Audio_to_MP3.entitlements */,
+				1A234DEA2B61AA0B00784944 /* Preview Content */,
+			);
+			path = "Audio to MP3";
+			sourceTree = "<group>";
+		};
+		1A234DEA2B61AA0B00784944 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1A234DEB2B61AA0B00784944 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1A5FEDF22B62AF2800E6E5FE /* ffmpeg */ = {
+			isa = PBXGroup;
+			children = (
+				1A5F0C212B62AF4E00E6E5FE /* Changelog */,
+				1A5F0C282B62AF4F00E6E5FE /* compat */,
+				1A5F0C342B62AF5100E6E5FE /* config_components.h */,
+				1A5F0C292B62AF4F00E6E5FE /* config.h */,
+				1A5F0C242B62AF4E00E6E5FE /* configure */,
+				1A5F0C2A2B62AF4F00E6E5FE /* CONTRIBUTING.md */,
+				1A5F0C3D2B62AF5200E6E5FE /* COPYING.GPLv2 */,
+				1A5F0C1F2B62AF4E00E6E5FE /* COPYING.GPLv3 */,
+				1A5F0C442B62AF5200E6E5FE /* COPYING.LGPLv2.1 */,
+				1A5F0C302B62AF5000E6E5FE /* COPYING.LGPLv3 */,
+				1A5F0C352B62AF5100E6E5FE /* CREDITS */,
+				1A5F0C2C2B62AF4F00E6E5FE /* doc */,
+				1A5F0C422B62AF5200E6E5FE /* ffbuild */,
+				1A5F0C432B62AF5200E6E5FE /* ffmpeg */,
+				1A5F0C272B62AF4F00E6E5FE /* ffmpeg_g */,
+				1A5F0C2E2B62AF5000E6E5FE /* ffplay */,
+				1A5F0C3E2B62AF5200E6E5FE /* ffplay_g */,
+				1A5F0C2F2B62AF5000E6E5FE /* ffprobe */,
+				1A5F0C362B62AF5100E6E5FE /* ffprobe_g */,
+				1A5F0C3F2B62AF5200E6E5FE /* fftools */,
+				1A5F0C372B62AF5100E6E5FE /* INSTALL.md */,
+				1A5F0C222B62AF4E00E6E5FE /* libavcodec */,
+				1A5F0C412B62AF5200E6E5FE /* libavdevice */,
+				1A5F0C402B62AF5200E6E5FE /* libavfilter */,
+				1A5F0C3A2B62AF5100E6E5FE /* libavformat */,
+				1A5F0C452B62AF5300E6E5FE /* libavutil */,
+				1A5F0C312B62AF5000E6E5FE /* libpostproc */,
+				1A5F0C252B62AF4F00E6E5FE /* libswresample */,
+				1A5F0C382B62AF5100E6E5FE /* libswscale */,
+				1A5F0C202B62AF4E00E6E5FE /* LICENSE.md */,
+				1A5F0C232B62AF4E00E6E5FE /* MAINTAINERS */,
+				1A5F0C262B62AF4F00E6E5FE /* Makefile */,
+				1A5F0C2B2B62AF4F00E6E5FE /* presets */,
+				1A5F0C3C2B62AF5100E6E5FE /* README.md */,
+				1A5F0C2D2B62AF4F00E6E5FE /* RELEASE */,
+				1A5F0C392B62AF5100E6E5FE /* RELEASE_NOTES */,
+				1A5F0C322B62AF5000E6E5FE /* tests */,
+				1A5F0C332B62AF5000E6E5FE /* tools */,
+				1A5F0C3B2B62AF5100E6E5FE /* VERSION */,
+			);
+			path = ffmpeg;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A234DE02B61AA0A00784944 /* Audio to MP3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A234DF02B61AA0B00784944 /* Build configuration list for PBXNativeTarget "Audio to MP3" */;
+			buildPhases = (
+				1A234DDD2B61AA0A00784944 /* Sources */,
+				1A234DDE2B61AA0A00784944 /* Frameworks */,
+				1A234DDF2B61AA0A00784944 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Audio to MP3";
+			packageProductDependencies = (
+			);
+			productName = "Audio to MP3";
+			productReference = 1A234DE12B61AA0A00784944 /* Audio to MP3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A234DD92B61AA0A00784944 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					1A234DE02B61AA0A00784944 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 1A234DDC2B61AA0A00784944 /* Build configuration list for PBXProject "Audio to MP3" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A234DD82B61AA0A00784944;
+			packageReferences = (
+			);
+			productRefGroup = 1A234DE22B61AA0A00784944 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A234DE02B61AA0A00784944 /* Audio to MP3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A234DDF2B61AA0A00784944 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A5F0C472B62AF5300E6E5FE /* LICENSE.md in Resources */,
+				1A5F0C602B62AF5300E6E5FE /* VERSION in Resources */,
+				1A5F0C462B62AF5300E6E5FE /* COPYING.GPLv3 in Resources */,
+				1A5F0C502B62AF5300E6E5FE /* CONTRIBUTING.md in Resources */,
+				1A5F0C642B62AF5300E6E5FE /* fftools in Resources */,
+				1A5F0C492B62AF5300E6E5FE /* libavcodec in Resources */,
+				1A5F0C572B62AF5300E6E5FE /* libpostproc in Resources */,
+				1A5F0C4B2B62AF5300E6E5FE /* configure in Resources */,
+				1A5F0C4A2B62AF5300E6E5FE /* MAINTAINERS in Resources */,
+				1A5F0C532B62AF5300E6E5FE /* RELEASE in Resources */,
+				1A5F0C582B62AF5300E6E5FE /* tests in Resources */,
+				1A5F0C5F2B62AF5300E6E5FE /* libavformat in Resources */,
+				1A234DEC2B61AA0B00784944 /* Preview Assets.xcassets in Resources */,
+				1A5F0C542B62AF5300E6E5FE /* ffplay in Resources */,
+				1A5F0C612B62AF5300E6E5FE /* README.md in Resources */,
+				1A5F0C692B62AF5300E6E5FE /* COPYING.LGPLv2.1 in Resources */,
+				1A5F0C4F2B62AF5300E6E5FE /* compat in Resources */,
+				1A5F0C592B62AF5300E6E5FE /* tools in Resources */,
+				1A5F0C552B62AF5300E6E5FE /* ffprobe in Resources */,
+				1A5F0C5E2B62AF5300E6E5FE /* RELEASE_NOTES in Resources */,
+				1A5F0C682B62AF5300E6E5FE /* ffmpeg in Resources */,
+				1A5F0C562B62AF5300E6E5FE /* COPYING.LGPLv3 in Resources */,
+				1A5F0C512B62AF5300E6E5FE /* presets in Resources */,
+				1A5F0C6A2B62AF5300E6E5FE /* libavutil in Resources */,
+				1A5F0C5D2B62AF5300E6E5FE /* libswscale in Resources */,
+				1A5F0C622B62AF5300E6E5FE /* COPYING.GPLv2 in Resources */,
+				1A5F0C5C2B62AF5300E6E5FE /* INSTALL.md in Resources */,
+				1A5F0C652B62AF5300E6E5FE /* libavfilter in Resources */,
+				1A5F0C5B2B62AF5300E6E5FE /* ffprobe_g in Resources */,
+				1A5F0C522B62AF5300E6E5FE /* doc in Resources */,
+				1A5F0C5A2B62AF5300E6E5FE /* CREDITS in Resources */,
+				1A5F0C672B62AF5300E6E5FE /* ffbuild in Resources */,
+				1A234DE92B61AA0B00784944 /* Assets.xcassets in Resources */,
+				1A5F0C482B62AF5300E6E5FE /* Changelog in Resources */,
+				1A5F0C4C2B62AF5300E6E5FE /* libswresample in Resources */,
+				1A5F0C662B62AF5300E6E5FE /* libavdevice in Resources */,
+				1A5F0C632B62AF5300E6E5FE /* ffplay_g in Resources */,
+				1A5F0C4E2B62AF5300E6E5FE /* ffmpeg_g in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A234DDD2B61AA0A00784944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A5F0C4D2B62AF5300E6E5FE /* Makefile in Sources */,
+				1A234DE72B61AA0A00784944 /* ContentView.swift in Sources */,
+				1A234DE52B61AA0A00784944 /* Audio_to_MP3App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1A234DEE2B61AA0B00784944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A234DEF2B61AA0B00784944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		1A234DF12B61AA0B00784944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = "Audio to MP3/Audio_to_MP3.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "Audio\\ to\\ MP3/Preview\\ Content Audio\\ to\\ MP3/Assets.xcassets";
+				DEVELOPMENT_TEAM = 6ZH797R8V2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dephase.Audio-to-MP3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1A234DF22B61AA0B00784944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = "Audio to MP3/Audio_to_MP3.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "Audio\\ to\\ MP3/Preview\\ Content Audio\\ to\\ MP3/Assets.xcassets";
+				DEVELOPMENT_TEAM = 6ZH797R8V2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dephase.Audio-to-MP3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A234DDC2B61AA0A00784944 /* Build configuration list for PBXProject "Audio to MP3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A234DEE2B61AA0B00784944 /* Debug */,
+				1A234DEF2B61AA0B00784944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A234DF02B61AA0B00784944 /* Build configuration list for PBXNativeTarget "Audio to MP3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A234DF12B61AA0B00784944 /* Debug */,
+				1A234DF22B61AA0B00784944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A234DD92B61AA0A00784944 /* Project object */;
+}

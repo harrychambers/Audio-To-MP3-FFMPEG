@@ -1,0 +1,14 @@
+prefix=/Users/harrychambers/desktop/ffmpeg-apple-arm64-build-master/out
+exec_prefix=${prefix}
+libdir=/Users/harrychambers/desktop/ffmpeg-apple-arm64-build-master/out/lib
+includedir=/Users/harrychambers/desktop/ffmpeg-apple-arm64-build-master/out/include
+
+Name: libavformat
+Description: FFmpeg container format library
+Version: 60.3.100
+Requires: libavcodec >= 60.3.100, libswresample >= 4.10.100, libavutil >= 58.2.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavformat -lm -lbz2 -L/Users/harrychambers/desktop/ffmpeg-apple-arm64-build-master/tool/lib -lz -Wl,-framework,CoreFoundation -Wl,-framework,Security
+Libs.private: 
+Cflags: -I${includedir}

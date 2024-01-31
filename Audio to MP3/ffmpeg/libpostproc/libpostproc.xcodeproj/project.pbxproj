@@ -1,0 +1,172 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXFileReference section */
+		1A5F0B262B62AF4D00E6E5FE /* postprocess_altivec_template.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = postprocess_altivec_template.c; sourceTree = "<group>"; };
+		1A5F0B272B62AF4D00E6E5FE /* version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		1A5F0B282B62AF4D00E6E5FE /* version.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = version.o; sourceTree = "<group>"; };
+		1A5F0B292B62AF4D00E6E5FE /* postprocess.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = postprocess.c; sourceTree = "<group>"; };
+		1A5F0B2A2B62AF4D00E6E5FE /* postprocess.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = postprocess.d; sourceTree = "<group>"; };
+		1A5F0B2B2B62AF4D00E6E5FE /* libpostproc.version */ = {isa = PBXFileReference; lastKnownFileType = text; path = libpostproc.version; sourceTree = "<group>"; };
+		1A5F0B2C2B62AF4D00E6E5FE /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		1A5F0B2D2B62AF4D00E6E5FE /* postprocres.rc */ = {isa = PBXFileReference; lastKnownFileType = text; path = postprocres.rc; sourceTree = "<group>"; };
+		1A5F0B2E2B62AF4D00E6E5FE /* libpostproc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpostproc.a; sourceTree = "<group>"; };
+		1A5F0B2F2B62AF4D00E6E5FE /* version_major.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = version_major.h; sourceTree = "<group>"; };
+		1A5F0B302B62AF4D00E6E5FE /* postprocess_internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = postprocess_internal.h; sourceTree = "<group>"; };
+		1A5F0B312B62AF4D00E6E5FE /* version.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = version.d; sourceTree = "<group>"; };
+		1A5F0B322B62AF4D00E6E5FE /* version.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = version.c; sourceTree = "<group>"; };
+		1A5F0B332B62AF4D00E6E5FE /* postprocess.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = postprocess.o; sourceTree = "<group>"; };
+		1A5F0B342B62AF4D00E6E5FE /* postprocess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = postprocess.h; sourceTree = "<group>"; };
+		1A5F0B352B62AF4D00E6E5FE /* postprocess_template.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = postprocess_template.c; sourceTree = "<group>"; };
+		1A5F0B362B62AF4D00E6E5FE /* libpostproc.v */ = {isa = PBXFileReference; lastKnownFileType = text; path = libpostproc.v; sourceTree = "<group>"; };
+		1A5F0B372B62AF4D00E6E5FE /* libpostproc.pc */ = {isa = PBXFileReference; lastKnownFileType = text; path = libpostproc.pc; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1A5F0B202B62AF4D00E6E5FE = {
+			isa = PBXGroup;
+			children = (
+				1A5F0B262B62AF4D00E6E5FE /* postprocess_altivec_template.c */,
+				1A5F0B272B62AF4D00E6E5FE /* version.h */,
+				1A5F0B282B62AF4D00E6E5FE /* version.o */,
+				1A5F0B292B62AF4D00E6E5FE /* postprocess.c */,
+				1A5F0B2A2B62AF4D00E6E5FE /* postprocess.d */,
+				1A5F0B2B2B62AF4D00E6E5FE /* libpostproc.version */,
+				1A5F0B2C2B62AF4D00E6E5FE /* Makefile */,
+				1A5F0B2D2B62AF4D00E6E5FE /* postprocres.rc */,
+				1A5F0B2E2B62AF4D00E6E5FE /* libpostproc.a */,
+				1A5F0B2F2B62AF4D00E6E5FE /* version_major.h */,
+				1A5F0B302B62AF4D00E6E5FE /* postprocess_internal.h */,
+				1A5F0B312B62AF4D00E6E5FE /* version.d */,
+				1A5F0B322B62AF4D00E6E5FE /* version.c */,
+				1A5F0B332B62AF4D00E6E5FE /* postprocess.o */,
+				1A5F0B342B62AF4D00E6E5FE /* postprocess.h */,
+				1A5F0B352B62AF4D00E6E5FE /* postprocess_template.c */,
+				1A5F0B362B62AF4D00E6E5FE /* libpostproc.v */,
+				1A5F0B372B62AF4D00E6E5FE /* libpostproc.pc */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		1A5F0B252B62AF4D00E6E5FE /* libpostproc */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 1A5F0B382B62AF4D00E6E5FE /* Build configuration list for PBXLegacyTarget "libpostproc" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/harrychambers/Desktop/ffmpeg-apple-arm64-build-master/ffmpeg/ffmpeg-6.0/libpostproc";
+			dependencies = (
+			);
+			name = libpostproc;
+			passBuildSettingsInEnvironment = 1;
+			productName = libpostproc;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		1A5F0B212B62AF4D00E6E5FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+			};
+			buildConfigurationList = 1A5F0B242B62AF4D00E6E5FE /* Build configuration list for PBXProject "libpostproc" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A5F0B202B62AF4D00E6E5FE;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A5F0B252B62AF4D00E6E5FE /* libpostproc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		1A5F0B222B62AF4D00E6E5FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1A5F0B232B62AF4D00E6E5FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		1A5F0B392B62AF4D00E6E5FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = libpostproc;
+			};
+			name = Debug;
+		};
+		1A5F0B3A2B62AF4D00E6E5FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = libpostproc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A5F0B242B62AF4D00E6E5FE /* Build configuration list for PBXProject "libpostproc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A5F0B222B62AF4D00E6E5FE /* Debug */,
+				1A5F0B232B62AF4D00E6E5FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A5F0B382B62AF4D00E6E5FE /* Build configuration list for PBXLegacyTarget "libpostproc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A5F0B392B62AF4D00E6E5FE /* Debug */,
+				1A5F0B3A2B62AF4D00E6E5FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A5F0B212B62AF4D00E6E5FE /* Project object */;
+}

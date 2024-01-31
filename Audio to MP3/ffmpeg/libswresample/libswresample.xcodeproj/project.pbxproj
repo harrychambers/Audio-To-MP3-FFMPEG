@@ -1,0 +1,234 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXFileReference section */
+		1A5F0B412B62AF4D00E6E5FE /* libswresample.v */ = {isa = PBXFileReference; lastKnownFileType = text; path = libswresample.v; sourceTree = "<group>"; };
+		1A5F0B422B62AF4D00E6E5FE /* resample.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = resample.o; sourceTree = "<group>"; };
+		1A5F0B432B62AF4D00E6E5FE /* resample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = resample.h; sourceTree = "<group>"; };
+		1A5F0B442B62AF4D00E6E5FE /* rematrix.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rematrix.c; sourceTree = "<group>"; };
+		1A5F0B452B62AF4D00E6E5FE /* rematrix.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = rematrix.d; sourceTree = "<group>"; };
+		1A5F0B462B62AF4D00E6E5FE /* resample_dsp.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = resample_dsp.d; sourceTree = "<group>"; };
+		1A5F0B472B62AF4D00E6E5FE /* resample_dsp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = resample_dsp.c; sourceTree = "<group>"; };
+		1A5F0B482B62AF4D00E6E5FE /* version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		1A5F0B492B62AF4D00E6E5FE /* version.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = version.o; sourceTree = "<group>"; };
+		1A5F0B4A2B62AF4D00E6E5FE /* rematrix_template.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rematrix_template.c; sourceTree = "<group>"; };
+		1A5F0B4B2B62AF4D00E6E5FE /* resample_template.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = resample_template.c; sourceTree = "<group>"; };
+		1A5F0B4C2B62AF4D00E6E5FE /* dither.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = dither.o; sourceTree = "<group>"; };
+		1A5F0B4D2B62AF4D00E6E5FE /* audioconvert.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = audioconvert.d; sourceTree = "<group>"; };
+		1A5F0B4E2B62AF4D00E6E5FE /* swresample_internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = swresample_internal.h; sourceTree = "<group>"; };
+		1A5F0B4F2B62AF4D00E6E5FE /* audioconvert.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = audioconvert.c; sourceTree = "<group>"; };
+		1A5F0B502B62AF4D00E6E5FE /* swresampleres.rc */ = {isa = PBXFileReference; lastKnownFileType = text; path = swresampleres.rc; sourceTree = "<group>"; };
+		1A5F0B512B62AF4D00E6E5FE /* libswresample.pc */ = {isa = PBXFileReference; lastKnownFileType = text; path = libswresample.pc; sourceTree = "<group>"; };
+		1A5F0B522B62AF4D00E6E5FE /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		1A5F0B532B62AF4D00E6E5FE /* log2_tab.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = log2_tab.c; sourceTree = "<group>"; };
+		1A5F0B542B62AF4D00E6E5FE /* libswresample.version */ = {isa = PBXFileReference; lastKnownFileType = text; path = libswresample.version; sourceTree = "<group>"; };
+		1A5F0B552B62AF4D00E6E5FE /* tests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tests; sourceTree = "<group>"; };
+		1A5F0B562B62AF4D00E6E5FE /* dither_template.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dither_template.c; sourceTree = "<group>"; };
+		1A5F0B572B62AF4D00E6E5FE /* swresample_frame.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = swresample_frame.o; sourceTree = "<group>"; };
+		1A5F0B582B62AF4D00E6E5FE /* options.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = options.o; sourceTree = "<group>"; };
+		1A5F0B592B62AF4D00E6E5FE /* swresample.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = swresample.d; sourceTree = "<group>"; };
+		1A5F0B5A2B62AF4D00E6E5FE /* swresample.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = swresample.c; sourceTree = "<group>"; };
+		1A5F0B5B2B62AF4D00E6E5FE /* noise_shaping_data.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = noise_shaping_data.c; sourceTree = "<group>"; };
+		1A5F0B5C2B62AF4D00E6E5FE /* resample_dsp.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = resample_dsp.o; sourceTree = "<group>"; };
+		1A5F0B5D2B62AF4D00E6E5FE /* rematrix.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = rematrix.o; sourceTree = "<group>"; };
+		1A5F0B5E2B62AF4D00E6E5FE /* resample.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = resample.c; sourceTree = "<group>"; };
+		1A5F0B5F2B62AF4D00E6E5FE /* resample.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = resample.d; sourceTree = "<group>"; };
+		1A5F0B602B62AF4D00E6E5FE /* libswresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libswresample.a; sourceTree = "<group>"; };
+		1A5F0B612B62AF4D00E6E5FE /* x86 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = x86; sourceTree = "<group>"; };
+		1A5F0B622B62AF4D00E6E5FE /* version_major.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = version_major.h; sourceTree = "<group>"; };
+		1A5F0B632B62AF4D00E6E5FE /* audioconvert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = audioconvert.h; sourceTree = "<group>"; };
+		1A5F0B642B62AF4D00E6E5FE /* audioconvert.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = audioconvert.o; sourceTree = "<group>"; };
+		1A5F0B652B62AF4D00E6E5FE /* dither.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = dither.d; sourceTree = "<group>"; };
+		1A5F0B662B62AF4D00E6E5FE /* dither.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dither.c; sourceTree = "<group>"; };
+		1A5F0B672B62AF4D00E6E5FE /* version.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = version.d; sourceTree = "<group>"; };
+		1A5F0B682B62AF4D00E6E5FE /* version.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = version.c; sourceTree = "<group>"; };
+		1A5F0B692B62AF4D00E6E5FE /* arm */ = {isa = PBXFileReference; lastKnownFileType = folder; path = arm; sourceTree = "<group>"; };
+		1A5F0B6A2B62AF4D00E6E5FE /* aarch64 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = aarch64; sourceTree = "<group>"; };
+		1A5F0B6B2B62AF4D00E6E5FE /* swresample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = swresample.h; sourceTree = "<group>"; };
+		1A5F0B6C2B62AF4D00E6E5FE /* swresample.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = swresample.o; sourceTree = "<group>"; };
+		1A5F0B6D2B62AF4D00E6E5FE /* swresample_frame.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = swresample_frame.d; sourceTree = "<group>"; };
+		1A5F0B6E2B62AF4D00E6E5FE /* swresample_frame.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = swresample_frame.c; sourceTree = "<group>"; };
+		1A5F0B6F2B62AF4D00E6E5FE /* options.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = options.d; sourceTree = "<group>"; };
+		1A5F0B702B62AF4D00E6E5FE /* options.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = options.c; sourceTree = "<group>"; };
+		1A5F0B712B62AF4D00E6E5FE /* soxr_resample.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = soxr_resample.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1A5F0B3B2B62AF4D00E6E5FE = {
+			isa = PBXGroup;
+			children = (
+				1A5F0B412B62AF4D00E6E5FE /* libswresample.v */,
+				1A5F0B422B62AF4D00E6E5FE /* resample.o */,
+				1A5F0B432B62AF4D00E6E5FE /* resample.h */,
+				1A5F0B442B62AF4D00E6E5FE /* rematrix.c */,
+				1A5F0B452B62AF4D00E6E5FE /* rematrix.d */,
+				1A5F0B462B62AF4D00E6E5FE /* resample_dsp.d */,
+				1A5F0B472B62AF4D00E6E5FE /* resample_dsp.c */,
+				1A5F0B482B62AF4D00E6E5FE /* version.h */,
+				1A5F0B492B62AF4D00E6E5FE /* version.o */,
+				1A5F0B4A2B62AF4D00E6E5FE /* rematrix_template.c */,
+				1A5F0B4B2B62AF4D00E6E5FE /* resample_template.c */,
+				1A5F0B4C2B62AF4D00E6E5FE /* dither.o */,
+				1A5F0B4D2B62AF4D00E6E5FE /* audioconvert.d */,
+				1A5F0B4E2B62AF4D00E6E5FE /* swresample_internal.h */,
+				1A5F0B4F2B62AF4D00E6E5FE /* audioconvert.c */,
+				1A5F0B502B62AF4D00E6E5FE /* swresampleres.rc */,
+				1A5F0B512B62AF4D00E6E5FE /* libswresample.pc */,
+				1A5F0B522B62AF4D00E6E5FE /* Makefile */,
+				1A5F0B532B62AF4D00E6E5FE /* log2_tab.c */,
+				1A5F0B542B62AF4D00E6E5FE /* libswresample.version */,
+				1A5F0B552B62AF4D00E6E5FE /* tests */,
+				1A5F0B562B62AF4D00E6E5FE /* dither_template.c */,
+				1A5F0B572B62AF4D00E6E5FE /* swresample_frame.o */,
+				1A5F0B582B62AF4D00E6E5FE /* options.o */,
+				1A5F0B592B62AF4D00E6E5FE /* swresample.d */,
+				1A5F0B5A2B62AF4D00E6E5FE /* swresample.c */,
+				1A5F0B5B2B62AF4D00E6E5FE /* noise_shaping_data.c */,
+				1A5F0B5C2B62AF4D00E6E5FE /* resample_dsp.o */,
+				1A5F0B5D2B62AF4D00E6E5FE /* rematrix.o */,
+				1A5F0B5E2B62AF4D00E6E5FE /* resample.c */,
+				1A5F0B5F2B62AF4D00E6E5FE /* resample.d */,
+				1A5F0B602B62AF4D00E6E5FE /* libswresample.a */,
+				1A5F0B612B62AF4D00E6E5FE /* x86 */,
+				1A5F0B622B62AF4D00E6E5FE /* version_major.h */,
+				1A5F0B632B62AF4D00E6E5FE /* audioconvert.h */,
+				1A5F0B642B62AF4D00E6E5FE /* audioconvert.o */,
+				1A5F0B652B62AF4D00E6E5FE /* dither.d */,
+				1A5F0B662B62AF4D00E6E5FE /* dither.c */,
+				1A5F0B672B62AF4D00E6E5FE /* version.d */,
+				1A5F0B682B62AF4D00E6E5FE /* version.c */,
+				1A5F0B692B62AF4D00E6E5FE /* arm */,
+				1A5F0B6A2B62AF4D00E6E5FE /* aarch64 */,
+				1A5F0B6B2B62AF4D00E6E5FE /* swresample.h */,
+				1A5F0B6C2B62AF4D00E6E5FE /* swresample.o */,
+				1A5F0B6D2B62AF4D00E6E5FE /* swresample_frame.d */,
+				1A5F0B6E2B62AF4D00E6E5FE /* swresample_frame.c */,
+				1A5F0B6F2B62AF4D00E6E5FE /* options.d */,
+				1A5F0B702B62AF4D00E6E5FE /* options.c */,
+				1A5F0B712B62AF4D00E6E5FE /* soxr_resample.c */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		1A5F0B402B62AF4D00E6E5FE /* libswresample */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 1A5F0B722B62AF4D00E6E5FE /* Build configuration list for PBXLegacyTarget "libswresample" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/harrychambers/Desktop/ffmpeg-apple-arm64-build-master/ffmpeg/ffmpeg-6.0/libswresample";
+			dependencies = (
+			);
+			name = libswresample;
+			passBuildSettingsInEnvironment = 1;
+			productName = libswresample;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		1A5F0B3C2B62AF4D00E6E5FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+			};
+			buildConfigurationList = 1A5F0B3F2B62AF4D00E6E5FE /* Build configuration list for PBXProject "libswresample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A5F0B3B2B62AF4D00E6E5FE;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A5F0B402B62AF4D00E6E5FE /* libswresample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		1A5F0B3D2B62AF4D00E6E5FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1A5F0B3E2B62AF4D00E6E5FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		1A5F0B732B62AF4D00E6E5FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = libswresample;
+			};
+			name = Debug;
+		};
+		1A5F0B742B62AF4D00E6E5FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = libswresample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A5F0B3F2B62AF4D00E6E5FE /* Build configuration list for PBXProject "libswresample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A5F0B3D2B62AF4D00E6E5FE /* Debug */,
+				1A5F0B3E2B62AF4D00E6E5FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A5F0B722B62AF4D00E6E5FE /* Build configuration list for PBXLegacyTarget "libswresample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A5F0B732B62AF4D00E6E5FE /* Debug */,
+				1A5F0B742B62AF4D00E6E5FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A5F0B3C2B62AF4D00E6E5FE /* Project object */;
+}

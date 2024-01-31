@@ -1,0 +1,186 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXFileReference section */
+		1A5F0BC92B62AF4D00E6E5FE /* filtergraphs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = filtergraphs; sourceTree = "<group>"; };
+		1A5F0BCA2B62AF4D00E6E5FE /* extended.ffconcat */ = {isa = PBXFileReference; lastKnownFileType = text; path = extended.ffconcat; sourceTree = "<group>"; };
+		1A5F0BCB2B62AF4D00E6E5FE /* ref */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ref; sourceTree = "<group>"; };
+		1A5F0BCC2B62AF4D00E6E5FE /* tiny_ssim.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tiny_ssim.c; sourceTree = "<group>"; };
+		1A5F0BCD2B62AF4D00E6E5FE /* copycooker.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = copycooker.sh; sourceTree = "<group>"; };
+		1A5F0BCE2B62AF4D00E6E5FE /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		1A5F0BCF2B62AF4D00E6E5FE /* md5.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = md5.sh; sourceTree = "<group>"; };
+		1A5F0BD02B62AF4D00E6E5FE /* checkasm */ = {isa = PBXFileReference; lastKnownFileType = folder; path = checkasm; sourceTree = "<group>"; };
+		1A5F0BD12B62AF4D00E6E5FE /* tiny_psnr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tiny_psnr.c; sourceTree = "<group>"; };
+		1A5F0BD22B62AF4D00E6E5FE /* fate.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = fate.sh; sourceTree = "<group>"; };
+		1A5F0BD32B62AF4D00E6E5FE /* simple1.ffconcat */ = {isa = PBXFileReference; lastKnownFileType = text; path = simple1.ffconcat; sourceTree = "<group>"; };
+		1A5F0BD42B62AF4D00E6E5FE /* fate-valgrind.supp */ = {isa = PBXFileReference; lastKnownFileType = text; path = "fate-valgrind.supp"; sourceTree = "<group>"; };
+		1A5F0BD52B62AF4D00E6E5FE /* fate */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fate; sourceTree = "<group>"; };
+		1A5F0BD62B62AF4D00E6E5FE /* rotozoom.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rotozoom.c; sourceTree = "<group>"; };
+		1A5F0BD72B62AF4D00E6E5FE /* utils.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = utils.c; sourceTree = "<group>"; };
+		1A5F0BD82B62AF4D00E6E5FE /* videogen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = videogen.c; sourceTree = "<group>"; };
+		1A5F0BD92B62AF4D00E6E5FE /* fate-run.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "fate-run.sh"; sourceTree = "<group>"; };
+		1A5F0BDA2B62AF4D00E6E5FE /* base64.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = base64.c; sourceTree = "<group>"; };
+		1A5F0BDB2B62AF4D00E6E5FE /* api */ = {isa = PBXFileReference; lastKnownFileType = folder; path = api; sourceTree = "<group>"; };
+		1A5F0BDC2B62AF4D00E6E5FE /* audiomatch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = audiomatch.c; sourceTree = "<group>"; };
+		1A5F0BDD2B62AF4D00E6E5FE /* simple2.ffconcat */ = {isa = PBXFileReference; lastKnownFileType = text; path = simple2.ffconcat; sourceTree = "<group>"; };
+		1A5F0BDE2B62AF4D00E6E5FE /* refcmp-metadata.awk */ = {isa = PBXFileReference; lastKnownFileType = text; path = "refcmp-metadata.awk"; sourceTree = "<group>"; };
+		1A5F0BDF2B62AF4D00E6E5FE /* audiogen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = audiogen.c; sourceTree = "<group>"; };
+		1A5F0BE02B62AF4D00E6E5FE /* reference.pnm */ = {isa = PBXFileReference; lastKnownFileType = file; path = reference.pnm; sourceTree = "<group>"; };
+		1A5F0BE12B62AF4D00E6E5FE /* test.ffmeta */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.ffmeta; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1A5F0BC32B62AF4D00E6E5FE = {
+			isa = PBXGroup;
+			children = (
+				1A5F0BC92B62AF4D00E6E5FE /* filtergraphs */,
+				1A5F0BCA2B62AF4D00E6E5FE /* extended.ffconcat */,
+				1A5F0BCB2B62AF4D00E6E5FE /* ref */,
+				1A5F0BCC2B62AF4D00E6E5FE /* tiny_ssim.c */,
+				1A5F0BCD2B62AF4D00E6E5FE /* copycooker.sh */,
+				1A5F0BCE2B62AF4D00E6E5FE /* Makefile */,
+				1A5F0BCF2B62AF4D00E6E5FE /* md5.sh */,
+				1A5F0BD02B62AF4D00E6E5FE /* checkasm */,
+				1A5F0BD12B62AF4D00E6E5FE /* tiny_psnr.c */,
+				1A5F0BD22B62AF4D00E6E5FE /* fate.sh */,
+				1A5F0BD32B62AF4D00E6E5FE /* simple1.ffconcat */,
+				1A5F0BD42B62AF4D00E6E5FE /* fate-valgrind.supp */,
+				1A5F0BD52B62AF4D00E6E5FE /* fate */,
+				1A5F0BD62B62AF4D00E6E5FE /* rotozoom.c */,
+				1A5F0BD72B62AF4D00E6E5FE /* utils.c */,
+				1A5F0BD82B62AF4D00E6E5FE /* videogen.c */,
+				1A5F0BD92B62AF4D00E6E5FE /* fate-run.sh */,
+				1A5F0BDA2B62AF4D00E6E5FE /* base64.c */,
+				1A5F0BDB2B62AF4D00E6E5FE /* api */,
+				1A5F0BDC2B62AF4D00E6E5FE /* audiomatch.c */,
+				1A5F0BDD2B62AF4D00E6E5FE /* simple2.ffconcat */,
+				1A5F0BDE2B62AF4D00E6E5FE /* refcmp-metadata.awk */,
+				1A5F0BDF2B62AF4D00E6E5FE /* audiogen.c */,
+				1A5F0BE02B62AF4D00E6E5FE /* reference.pnm */,
+				1A5F0BE12B62AF4D00E6E5FE /* test.ffmeta */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		1A5F0BC82B62AF4D00E6E5FE /* tests */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 1A5F0BE22B62AF4D00E6E5FE /* Build configuration list for PBXLegacyTarget "tests" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/harrychambers/Desktop/ffmpeg-apple-arm64-build-master/ffmpeg/ffmpeg-6.0/tests";
+			dependencies = (
+			);
+			name = tests;
+			passBuildSettingsInEnvironment = 1;
+			productName = tests;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		1A5F0BC42B62AF4D00E6E5FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+			};
+			buildConfigurationList = 1A5F0BC72B62AF4D00E6E5FE /* Build configuration list for PBXProject "tests" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A5F0BC32B62AF4D00E6E5FE;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A5F0BC82B62AF4D00E6E5FE /* tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		1A5F0BC52B62AF4D00E6E5FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1A5F0BC62B62AF4D00E6E5FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		1A5F0BE32B62AF4D00E6E5FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = tests;
+			};
+			name = Debug;
+		};
+		1A5F0BE42B62AF4D00E6E5FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = tests;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A5F0BC72B62AF4D00E6E5FE /* Build configuration list for PBXProject "tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A5F0BC52B62AF4D00E6E5FE /* Debug */,
+				1A5F0BC62B62AF4D00E6E5FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A5F0BE22B62AF4D00E6E5FE /* Build configuration list for PBXLegacyTarget "tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A5F0BE32B62AF4D00E6E5FE /* Debug */,
+				1A5F0BE42B62AF4D00E6E5FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A5F0BC42B62AF4D00E6E5FE /* Project object */;
+}

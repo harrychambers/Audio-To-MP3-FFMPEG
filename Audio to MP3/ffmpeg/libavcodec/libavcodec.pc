@@ -1,0 +1,14 @@
+prefix=/Users/harrychambers/desktop/ffmpeg-apple-arm64-build-master/out
+exec_prefix=${prefix}
+libdir=/Users/harrychambers/desktop/ffmpeg-apple-arm64-build-master/out/lib
+includedir=/Users/harrychambers/desktop/ffmpeg-apple-arm64-build-master/out/include
+
+Name: libavcodec
+Description: FFmpeg codec library
+Version: 60.3.100
+Requires: libswresample >= 4.10.100, libavutil >= 58.2.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavcodec -L/Users/harrychambers/desktop/ffmpeg-apple-arm64-build-master/tool/lib -lvpx -lm -lpthread -L/Users/harrychambers/desktop/ffmpeg-apple-arm64-build-master/tool/lib -lvpx -lm -lpthread -L/Users/harrychambers/desktop/ffmpeg-apple-arm64-build-master/tool/lib -lvpx -lm -lpthread -L/Users/harrychambers/desktop/ffmpeg-apple-arm64-build-master/tool/lib -lvpx -lm -lpthread -liconv -lm -framework AudioToolbox -L/Users/harrychambers/desktop/ffmpeg-apple-arm64-build-master/tool/lib -laom -lm -L/Users/harrychambers/desktop/ffmpeg-apple-arm64-build-master/tool/lib -lfdk-aac -lmp3lame -lm -L/Users/harrychambers/desktop/ffmpeg-apple-arm64-build-master/tool/lib -lopus -L/Users/harrychambers/desktop/ffmpeg-apple-arm64-build-master/tool/lib -lSvtAv1Enc -lpthread -lm -L/Users/harrychambers/desktop/ffmpeg-apple-arm64-build-master/tool/lib -lvorbis -lm -logg -L/Users/harrychambers/desktop/ffmpeg-apple-arm64-build-master/tool/lib -lvorbisenc -lvorbis -lm -logg -L/Users/harrychambers/desktop/ffmpeg-apple-arm64-build-master/tool/lib -lx264 -lpthread -lm -ldl -L/Users/harrychambers/desktop/ffmpeg-apple-arm64-build-master/tool/lib -lx265 -lc++ -ldl -L/Users/harrychambers/desktop/ffmpeg-apple-arm64-build-master/tool/lib -lopenh264 -lstdc++ -pthread -L/Users/harrychambers/desktop/ffmpeg-apple-arm64-build-master/tool/lib -lz -framework VideoToolbox -framework CoreFoundation -framework CoreMedia -framework CoreVideo -framework CoreServices
+Libs.private: 
+Cflags: -I${includedir}

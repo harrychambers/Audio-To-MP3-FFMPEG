@@ -1,0 +1,242 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXFileReference section */
+		1A5FEE9C2B62AF4D00E6E5FE /* cmdutils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cmdutils.h; sourceTree = "<group>"; };
+		1A5FEE9D2B62AF4D00E6E5FE /* opt_common.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = opt_common.c; sourceTree = "<group>"; };
+		1A5FEE9E2B62AF4D00E6E5FE /* ffprobe.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = ffprobe.o; sourceTree = "<group>"; };
+		1A5FEE9F2B62AF4D00E6E5FE /* cmdutils.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = cmdutils.o; sourceTree = "<group>"; };
+		1A5FEEA02B62AF4D00E6E5FE /* opt_common.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = opt_common.d; sourceTree = "<group>"; };
+		1A5FEEA12B62AF4D00E6E5FE /* ffmpeg_opt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ffmpeg_opt.c; sourceTree = "<group>"; };
+		1A5FEEA22B62AF4D00E6E5FE /* ffmpeg_opt.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = ffmpeg_opt.d; sourceTree = "<group>"; };
+		1A5FEEA32B62AF4D00E6E5FE /* objpool.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = objpool.o; sourceTree = "<group>"; };
+		1A5FEEA42B62AF4D00E6E5FE /* objpool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = objpool.h; sourceTree = "<group>"; };
+		1A5FEEA52B62AF4D00E6E5FE /* ffmpeg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ffmpeg.h; sourceTree = "<group>"; };
+		1A5FEEA62B62AF4D00E6E5FE /* ffmpeg_demux.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = ffmpeg_demux.d; sourceTree = "<group>"; };
+		1A5FEEA72B62AF4D00E6E5FE /* ffmpeg.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = ffmpeg.o; sourceTree = "<group>"; };
+		1A5FEEA82B62AF4D00E6E5FE /* ffmpeg_demux.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ffmpeg_demux.c; sourceTree = "<group>"; };
+		1A5FEEA92B62AF4D00E6E5FE /* fopen_utf8.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fopen_utf8.h; sourceTree = "<group>"; };
+		1A5FEEAA2B62AF4D00E6E5FE /* ffmpeg_mux.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ffmpeg_mux.h; sourceTree = "<group>"; };
+		1A5FEEAB2B62AF4D00E6E5FE /* ffmpeg_mux.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = ffmpeg_mux.o; sourceTree = "<group>"; };
+		1A5FEEAC2B62AF4D00E6E5FE /* ffplay.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = ffplay.d; sourceTree = "<group>"; };
+		1A5FEEAD2B62AF4D00E6E5FE /* ffplay.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ffplay.c; sourceTree = "<group>"; };
+		1A5FEEAE2B62AF4D00E6E5FE /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		1A5FEEAF2B62AF4D00E6E5FE /* ffmpeg_mux_init.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ffmpeg_mux_init.c; sourceTree = "<group>"; };
+		1A5FEEB02B62AF4D00E6E5FE /* ffmpeg_mux_init.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = ffmpeg_mux_init.d; sourceTree = "<group>"; };
+		1A5FEEB12B62AF4D00E6E5FE /* ffmpeg_filter.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ffmpeg_filter.c; sourceTree = "<group>"; };
+		1A5FEEB22B62AF4D00E6E5FE /* ffmpeg_filter.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = ffmpeg_filter.d; sourceTree = "<group>"; };
+		1A5FEEB32B62AF4D00E6E5FE /* fftools.manifest */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = fftools.manifest; sourceTree = "<group>"; };
+		1A5FEEB42B62AF4D00E6E5FE /* ffmpeg_hw.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = ffmpeg_hw.d; sourceTree = "<group>"; };
+		1A5FEEB52B62AF4D00E6E5FE /* ffmpeg_hw.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ffmpeg_hw.c; sourceTree = "<group>"; };
+		1A5FEEB62B62AF4D00E6E5FE /* thread_queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = thread_queue.h; sourceTree = "<group>"; };
+		1A5FEEB72B62AF4D00E6E5FE /* thread_queue.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = thread_queue.o; sourceTree = "<group>"; };
+		1A5FEEB82B62AF4D00E6E5FE /* sync_queue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sync_queue.c; sourceTree = "<group>"; };
+		1A5FEEB92B62AF4D00E6E5FE /* sync_queue.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = sync_queue.d; sourceTree = "<group>"; };
+		1A5FEEBA2B62AF4D00E6E5FE /* objpool.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = objpool.c; sourceTree = "<group>"; };
+		1A5FEEBB2B62AF4D00E6E5FE /* objpool.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = objpool.d; sourceTree = "<group>"; };
+		1A5FEEBC2B62AF4D00E6E5FE /* ffmpeg_opt.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = ffmpeg_opt.o; sourceTree = "<group>"; };
+		1A5FEEBD2B62AF4D00E6E5FE /* opt_common.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = opt_common.o; sourceTree = "<group>"; };
+		1A5FEEBE2B62AF4D00E6E5FE /* ffprobe.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ffprobe.c; sourceTree = "<group>"; };
+		1A5FEEBF2B62AF4D00E6E5FE /* cmdutils.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = cmdutils.d; sourceTree = "<group>"; };
+		1A5FEEC02B62AF4D00E6E5FE /* ffprobe.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = ffprobe.d; sourceTree = "<group>"; };
+		1A5FEEC12B62AF4D00E6E5FE /* opt_common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = opt_common.h; sourceTree = "<group>"; };
+		1A5FEEC22B62AF4D00E6E5FE /* cmdutils.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cmdutils.c; sourceTree = "<group>"; };
+		1A5FEEC32B62AF4D00E6E5FE /* ffmpeg_mux.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = ffmpeg_mux.d; sourceTree = "<group>"; };
+		1A5FEEC42B62AF4D00E6E5FE /* ffmpeg_mux.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ffmpeg_mux.c; sourceTree = "<group>"; };
+		1A5FEEC52B62AF4D00E6E5FE /* ffmpeg.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = ffmpeg.d; sourceTree = "<group>"; };
+		1A5FEEC62B62AF4D00E6E5FE /* ffmpeg_demux.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = ffmpeg_demux.o; sourceTree = "<group>"; };
+		1A5FEEC72B62AF4D00E6E5FE /* ffmpeg.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ffmpeg.c; sourceTree = "<group>"; };
+		1A5FEEC82B62AF4D00E6E5FE /* ffmpeg_filter.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = ffmpeg_filter.o; sourceTree = "<group>"; };
+		1A5FEEC92B62AF4D00E6E5FE /* ffmpeg_hw.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = ffmpeg_hw.o; sourceTree = "<group>"; };
+		1A5FEECA2B62AF4D00E6E5FE /* ffmpeg_mux_init.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = ffmpeg_mux_init.o; sourceTree = "<group>"; };
+		1A5FEECB2B62AF4D00E6E5FE /* ffplay.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = ffplay.o; sourceTree = "<group>"; };
+		1A5FEECC2B62AF4D00E6E5FE /* fftoolsres.rc */ = {isa = PBXFileReference; lastKnownFileType = text; path = fftoolsres.rc; sourceTree = "<group>"; };
+		1A5FEECD2B62AF4D00E6E5FE /* sync_queue.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = sync_queue.o; sourceTree = "<group>"; };
+		1A5FEECE2B62AF4D00E6E5FE /* sync_queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sync_queue.h; sourceTree = "<group>"; };
+		1A5FEECF2B62AF4D00E6E5FE /* thread_queue.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = thread_queue.d; sourceTree = "<group>"; };
+		1A5FEED02B62AF4D00E6E5FE /* thread_queue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = thread_queue.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1A5FEE962B62AF4D00E6E5FE = {
+			isa = PBXGroup;
+			children = (
+				1A5FEE9C2B62AF4D00E6E5FE /* cmdutils.h */,
+				1A5FEE9D2B62AF4D00E6E5FE /* opt_common.c */,
+				1A5FEE9E2B62AF4D00E6E5FE /* ffprobe.o */,
+				1A5FEE9F2B62AF4D00E6E5FE /* cmdutils.o */,
+				1A5FEEA02B62AF4D00E6E5FE /* opt_common.d */,
+				1A5FEEA12B62AF4D00E6E5FE /* ffmpeg_opt.c */,
+				1A5FEEA22B62AF4D00E6E5FE /* ffmpeg_opt.d */,
+				1A5FEEA32B62AF4D00E6E5FE /* objpool.o */,
+				1A5FEEA42B62AF4D00E6E5FE /* objpool.h */,
+				1A5FEEA52B62AF4D00E6E5FE /* ffmpeg.h */,
+				1A5FEEA62B62AF4D00E6E5FE /* ffmpeg_demux.d */,
+				1A5FEEA72B62AF4D00E6E5FE /* ffmpeg.o */,
+				1A5FEEA82B62AF4D00E6E5FE /* ffmpeg_demux.c */,
+				1A5FEEA92B62AF4D00E6E5FE /* fopen_utf8.h */,
+				1A5FEEAA2B62AF4D00E6E5FE /* ffmpeg_mux.h */,
+				1A5FEEAB2B62AF4D00E6E5FE /* ffmpeg_mux.o */,
+				1A5FEEAC2B62AF4D00E6E5FE /* ffplay.d */,
+				1A5FEEAD2B62AF4D00E6E5FE /* ffplay.c */,
+				1A5FEEAE2B62AF4D00E6E5FE /* Makefile */,
+				1A5FEEAF2B62AF4D00E6E5FE /* ffmpeg_mux_init.c */,
+				1A5FEEB02B62AF4D00E6E5FE /* ffmpeg_mux_init.d */,
+				1A5FEEB12B62AF4D00E6E5FE /* ffmpeg_filter.c */,
+				1A5FEEB22B62AF4D00E6E5FE /* ffmpeg_filter.d */,
+				1A5FEEB32B62AF4D00E6E5FE /* fftools.manifest */,
+				1A5FEEB42B62AF4D00E6E5FE /* ffmpeg_hw.d */,
+				1A5FEEB52B62AF4D00E6E5FE /* ffmpeg_hw.c */,
+				1A5FEEB62B62AF4D00E6E5FE /* thread_queue.h */,
+				1A5FEEB72B62AF4D00E6E5FE /* thread_queue.o */,
+				1A5FEEB82B62AF4D00E6E5FE /* sync_queue.c */,
+				1A5FEEB92B62AF4D00E6E5FE /* sync_queue.d */,
+				1A5FEEBA2B62AF4D00E6E5FE /* objpool.c */,
+				1A5FEEBB2B62AF4D00E6E5FE /* objpool.d */,
+				1A5FEEBC2B62AF4D00E6E5FE /* ffmpeg_opt.o */,
+				1A5FEEBD2B62AF4D00E6E5FE /* opt_common.o */,
+				1A5FEEBE2B62AF4D00E6E5FE /* ffprobe.c */,
+				1A5FEEBF2B62AF4D00E6E5FE /* cmdutils.d */,
+				1A5FEEC02B62AF4D00E6E5FE /* ffprobe.d */,
+				1A5FEEC12B62AF4D00E6E5FE /* opt_common.h */,
+				1A5FEEC22B62AF4D00E6E5FE /* cmdutils.c */,
+				1A5FEEC32B62AF4D00E6E5FE /* ffmpeg_mux.d */,
+				1A5FEEC42B62AF4D00E6E5FE /* ffmpeg_mux.c */,
+				1A5FEEC52B62AF4D00E6E5FE /* ffmpeg.d */,
+				1A5FEEC62B62AF4D00E6E5FE /* ffmpeg_demux.o */,
+				1A5FEEC72B62AF4D00E6E5FE /* ffmpeg.c */,
+				1A5FEEC82B62AF4D00E6E5FE /* ffmpeg_filter.o */,
+				1A5FEEC92B62AF4D00E6E5FE /* ffmpeg_hw.o */,
+				1A5FEECA2B62AF4D00E6E5FE /* ffmpeg_mux_init.o */,
+				1A5FEECB2B62AF4D00E6E5FE /* ffplay.o */,
+				1A5FEECC2B62AF4D00E6E5FE /* fftoolsres.rc */,
+				1A5FEECD2B62AF4D00E6E5FE /* sync_queue.o */,
+				1A5FEECE2B62AF4D00E6E5FE /* sync_queue.h */,
+				1A5FEECF2B62AF4D00E6E5FE /* thread_queue.d */,
+				1A5FEED02B62AF4D00E6E5FE /* thread_queue.c */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		1A5FEE9B2B62AF4D00E6E5FE /* fftools */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 1A5FEED12B62AF4D00E6E5FE /* Build configuration list for PBXLegacyTarget "fftools" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/harrychambers/Desktop/ffmpeg-apple-arm64-build-master/ffmpeg/ffmpeg-6.0/fftools";
+			dependencies = (
+			);
+			name = fftools;
+			passBuildSettingsInEnvironment = 1;
+			productName = fftools;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		1A5FEE972B62AF4D00E6E5FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+			};
+			buildConfigurationList = 1A5FEE9A2B62AF4D00E6E5FE /* Build configuration list for PBXProject "fftools" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A5FEE962B62AF4D00E6E5FE;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A5FEE9B2B62AF4D00E6E5FE /* fftools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		1A5FEE982B62AF4D00E6E5FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1A5FEE992B62AF4D00E6E5FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		1A5FEED22B62AF4D00E6E5FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = fftools;
+			};
+			name = Debug;
+		};
+		1A5FEED32B62AF4D00E6E5FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = fftools;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A5FEE9A2B62AF4D00E6E5FE /* Build configuration list for PBXProject "fftools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A5FEE982B62AF4D00E6E5FE /* Debug */,
+				1A5FEE992B62AF4D00E6E5FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A5FEED12B62AF4D00E6E5FE /* Build configuration list for PBXLegacyTarget "fftools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A5FEED22B62AF4D00E6E5FE /* Debug */,
+				1A5FEED32B62AF4D00E6E5FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A5FEE972B62AF4D00E6E5FE /* Project object */;
+}

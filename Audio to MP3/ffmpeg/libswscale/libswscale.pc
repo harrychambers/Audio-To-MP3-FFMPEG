@@ -1,0 +1,14 @@
+prefix=/Users/harrychambers/desktop/ffmpeg-apple-arm64-build-master/out
+exec_prefix=${prefix}
+libdir=/Users/harrychambers/desktop/ffmpeg-apple-arm64-build-master/out/lib
+includedir=/Users/harrychambers/desktop/ffmpeg-apple-arm64-build-master/out/include
+
+Name: libswscale
+Description: FFmpeg image rescaling library
+Version: 7.1.100
+Requires: libavutil >= 58.2.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lswscale -lm
+Libs.private: 
+Cflags: -I${includedir}

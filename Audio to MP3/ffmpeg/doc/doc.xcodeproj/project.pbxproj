@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXFileReference section */
+		1A5FEDF92B62AF4D00E6E5FE /* ffmpeg-resampler.pod */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ffmpeg-resampler.pod"; sourceTree = "<group>"; };
+		1A5FEDFA2B62AF4D00E6E5FE /* ffplay.pod */ = {isa = PBXFileReference; lastKnownFileType = text; path = ffplay.pod; sourceTree = "<group>"; };
+		1A5FEDFB2B62AF4D00E6E5FE /* libavdevice.pod.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = libavdevice.pod.d; sourceTree = "<group>"; };
+		1A5FEDFC2B62AF4D00E6E5FE /* libavcodec.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = libavcodec.texi; sourceTree = "<group>"; };
+		1A5FEDFD2B62AF4D00E6E5FE /* ffplay-all.pod.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = "ffplay-all.pod.d"; sourceTree = "<group>"; };
+		1A5FEDFE2B62AF4D00E6E5FE /* bootstrap.min.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = bootstrap.min.css; sourceTree = "<group>"; };
+		1A5FEDFF2B62AF4D00E6E5FE /* rate_distortion.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = rate_distortion.txt; sourceTree = "<group>"; };
+		1A5FEE002B62AF4D00E6E5FE /* filter_design.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = filter_design.txt; sourceTree = "<group>"; };
+		1A5FEE012B62AF4D00E6E5FE /* codecs.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = codecs.texi; sourceTree = "<group>"; };
+		1A5FEE022B62AF4D00E6E5FE /* ffprobe.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ffprobe.1; sourceTree = "<group>"; };
+		1A5FEE032B62AF4D00E6E5FE /* ffmpeg-resampler.pod.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = "ffmpeg-resampler.pod.d"; sourceTree = "<group>"; };
+		1A5FEE042B62AF4D00E6E5FE /* config.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = config.texi; sourceTree = "<group>"; };
+		1A5FEE052B62AF4D00E6E5FE /* ffmpeg-scaler.pod.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = "ffmpeg-scaler.pod.d"; sourceTree = "<group>"; };
+		1A5FEE062B62AF4D00E6E5FE /* libswresample.3 */ = {isa = PBXFileReference; lastKnownFileType = text; path = libswresample.3; sourceTree = "<group>"; };
+		1A5FEE072B62AF4D00E6E5FE /* libavfilter.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = libavfilter.texi; sourceTree = "<group>"; };
+		1A5FEE082B62AF4D00E6E5FE /* libavutil.pod */ = {isa = PBXFileReference; lastKnownFileType = text; path = libavutil.pod; sourceTree = "<group>"; };
+		1A5FEE092B62AF4D00E6E5FE /* libswresample.pod.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = libswresample.pod.d; sourceTree = "<group>"; };
+		1A5FEE0A2B62AF4D00E6E5FE /* issue_tracker.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = issue_tracker.txt; sourceTree = "<group>"; };
+		1A5FEE0B2B62AF4D00E6E5FE /* ffmpeg-all.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "ffmpeg-all.1"; sourceTree = "<group>"; };
+		1A5FEE0C2B62AF4D00E6E5FE /* ffmpeg-devices.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ffmpeg-devices.texi"; sourceTree = "<group>"; };
+		1A5FEE0D2B62AF4D00E6E5FE /* libswscale.pod */ = {isa = PBXFileReference; lastKnownFileType = text; path = libswscale.pod; sourceTree = "<group>"; };
+		1A5FEE0E2B62AF4D00E6E5FE /* libavdevice.3 */ = {isa = PBXFileReference; lastKnownFileType = text; path = libavdevice.3; sourceTree = "<group>"; };
+		1A5FEE0F2B62AF4D00E6E5FE /* swresample.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = swresample.txt; sourceTree = "<group>"; };
+		1A5FEE102B62AF4D00E6E5FE /* style.min.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = style.min.css; sourceTree = "<group>"; };
+		1A5FEE112B62AF4D00E6E5FE /* ffmpeg-all.pod.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = "ffmpeg-all.pod.d"; sourceTree = "<group>"; };
+		1A5FEE122B62AF4D00E6E5FE /* ffmpeg-filters.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "ffmpeg-filters.1"; sourceTree = "<group>"; };
+		1A5FEE132B62AF4D00E6E5FE /* libavcodec.pod.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = libavcodec.pod.d; sourceTree = "<group>"; };
+		1A5FEE142B62AF4D00E6E5FE /* snow.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = snow.txt; sourceTree = "<group>"; };
+		1A5FEE152B62AF4D00E6E5FE /* authors.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = authors.texi; sourceTree = "<group>"; };
+		1A5FEE162B62AF4D00E6E5FE /* ffmpeg.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ffmpeg.1; sourceTree = "<group>"; };
+		1A5FEE172B62AF4D00E6E5FE /* metadata.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = metadata.texi; sourceTree = "<group>"; };
+		1A5FEE182B62AF4D00E6E5FE /* ffmpeg-codecs.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "ffmpeg-codecs.1"; sourceTree = "<group>"; };
+		1A5FEE192B62AF4D00E6E5FE /* texi2pod.pl */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = texi2pod.pl; sourceTree = "<group>"; };
+		1A5FEE1A2B62AF4D00E6E5FE /* platform.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = platform.texi; sourceTree = "<group>"; };
+		1A5FEE1B2B62AF4D00E6E5FE /* nut.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = nut.texi; sourceTree = "<group>"; };
+		1A5FEE1C2B62AF4D00E6E5FE /* ffmpeg-utils.pod.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = "ffmpeg-utils.pod.d"; sourceTree = "<group>"; };
+		1A5FEE1D2B62AF4D00E6E5FE /* encoders.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = encoders.texi; sourceTree = "<group>"; };
+		1A5FEE1E2B62AF4D00E6E5FE /* writing_filters.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = writing_filters.txt; sourceTree = "<group>"; };
+		1A5FEE1F2B62AF4D00E6E5FE /* bitstream_filters.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = bitstream_filters.texi; sourceTree = "<group>"; };
+		1A5FEE202B62AF4D00E6E5FE /* ffmpeg.pod.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = ffmpeg.pod.d; sourceTree = "<group>"; };
+		1A5FEE212B62AF4D00E6E5FE /* errno.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = errno.txt; sourceTree = "<group>"; };
+		1A5FEE222B62AF4D00E6E5FE /* t2h.init */ = {isa = PBXFileReference; lastKnownFileType = text; path = t2h.init; sourceTree = "<group>"; };
+		1A5FEE232B62AF4D00E6E5FE /* fate.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = fate.texi; sourceTree = "<group>"; };
+		1A5FEE242B62AF4D00E6E5FE /* fftools-common-opts.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = "fftools-common-opts.texi"; sourceTree = "<group>"; };
+		1A5FEE252B62AF4D00E6E5FE /* formats.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = formats.texi; sourceTree = "<group>"; };
+		1A5FEE262B62AF4D00E6E5FE /* libswscale.3 */ = {isa = PBXFileReference; lastKnownFileType = text; path = libswscale.3; sourceTree = "<group>"; };
+		1A5FEE272B62AF4D00E6E5FE /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		1A5FEE282B62AF4D00E6E5FE /* resampler.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = resampler.texi; sourceTree = "<group>"; };
+		1A5FEE292B62AF4D00E6E5FE /* ffmpeg-bitstream-filters.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ffmpeg-bitstream-filters.texi"; sourceTree = "<group>"; };
+		1A5FEE2A2B62AF4D00E6E5FE /* libavdevice.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = libavdevice.texi; sourceTree = "<group>"; };
+		1A5FEE2B2B62AF4D00E6E5FE /* APIchanges */ = {isa = PBXFileReference; lastKnownFileType = text; path = APIchanges; sourceTree = "<group>"; };
+		1A5FEE2C2B62AF4D00E6E5FE /* general.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = general.texi; sourceTree = "<group>"; };
+		1A5FEE2D2B62AF4D00E6E5FE /* ffmpeg-formats.pod */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ffmpeg-formats.pod"; sourceTree = "<group>"; };
+		1A5FEE2E2B62AF4D00E6E5FE /* ffmpeg-utils.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "ffmpeg-utils.1"; sourceTree = "<group>"; };
+		1A5FEE2F2B62AF4D00E6E5FE /* outdevs.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = outdevs.texi; sourceTree = "<group>"; };
+		1A5FEE302B62AF4D00E6E5FE /* faq.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = faq.texi; sourceTree = "<group>"; };
+		1A5FEE312B62AF4D00E6E5FE /* decoders.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = decoders.texi; sourceTree = "<group>"; };
+		1A5FEE322B62AF4D00E6E5FE /* avoptions_format.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = avoptions_format.texi; sourceTree = "<group>"; };
+		1A5FEE332B62AF4D00E6E5FE /* developer.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = developer.texi; sourceTree = "<group>"; };
+		1A5FEE342B62AF4D00E6E5FE /* ffmpeg-scaler.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ffmpeg-scaler.texi"; sourceTree = "<group>"; };
+		1A5FEE352B62AF4D00E6E5FE /* protocols.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = protocols.texi; sourceTree = "<group>"; };
+		1A5FEE362B62AF4D00E6E5FE /* ffprobe.xsd */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ffprobe.xsd; sourceTree = "<group>"; };
+		1A5FEE372B62AF4D00E6E5FE /* ffmpeg-utils.pod */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ffmpeg-utils.pod"; sourceTree = "<group>"; };
+		1A5FEE382B62AF4D00E6E5FE /* optimization.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = optimization.txt; sourceTree = "<group>"; };
+		1A5FEE392B62AF4D00E6E5FE /* ffprobe.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = ffprobe.texi; sourceTree = "<group>"; };
+		1A5FEE3A2B62AF4D00E6E5FE /* ffmpeg-codecs.pod.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = "ffmpeg-codecs.pod.d"; sourceTree = "<group>"; };
+		1A5FEE3B2B62AF4D00E6E5FE /* ffmpeg-utils.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ffmpeg-utils.texi"; sourceTree = "<group>"; };
+		1A5FEE3C2B62AF4D00E6E5FE /* patchwork */ = {isa = PBXFileReference; lastKnownFileType = text; path = patchwork; sourceTree = "<group>"; };
+		1A5FEE3D2B62AF4D00E6E5FE /* general_contents.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = general_contents.texi; sourceTree = "<group>"; };
+		1A5FEE3E2B62AF4D00E6E5FE /* multithreading.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = multithreading.txt; sourceTree = "<group>"; };
+		1A5FEE3F2B62AF4D00E6E5FE /* ffmpeg-all.pod */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ffmpeg-all.pod"; sourceTree = "<group>"; };
+		1A5FEE402B62AF4D00E6E5FE /* print_options.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = print_options.o; sourceTree = "<group>"; };
+		1A5FEE412B62AF4D00E6E5FE /* ffmpeg-filters.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ffmpeg-filters.texi"; sourceTree = "<group>"; };
+		1A5FEE422B62AF4D00E6E5FE /* libav-merge.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "libav-merge.txt"; sourceTree = "<group>"; };
+		1A5FEE432B62AF4D00E6E5FE /* ffmpeg-resampler.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "ffmpeg-resampler.1"; sourceTree = "<group>"; };
+		1A5FEE442B62AF4D00E6E5FE /* libavfilter.pod.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = libavfilter.pod.d; sourceTree = "<group>"; };
+		1A5FEE452B62AF4D00E6E5FE /* mailing-list-faq.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = "mailing-list-faq.texi"; sourceTree = "<group>"; };
+		1A5FEE462B62AF4D00E6E5FE /* tablegen.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = tablegen.txt; sourceTree = "<group>"; };
+		1A5FEE472B62AF4D00E6E5FE /* mips.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = mips.txt; sourceTree = "<group>"; };
+		1A5FEE482B62AF4D00E6E5FE /* libswresample.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = libswresample.texi; sourceTree = "<group>"; };
+		1A5FEE492B62AF4D00E6E5FE /* libavcodec.pod */ = {isa = PBXFileReference; lastKnownFileType = text; path = libavcodec.pod; sourceTree = "<group>"; };
+		1A5FEE4A2B62AF4D00E6E5FE /* fate_config.sh.template */ = {isa = PBXFileReference; lastKnownFileType = text; path = fate_config.sh.template; sourceTree = "<group>"; };
+		1A5FEE4B2B62AF4D00E6E5FE /* build_system.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = build_system.txt; sourceTree = "<group>"; };
+		1A5FEE4C2B62AF4D00E6E5FE /* demuxers.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = demuxers.texi; sourceTree = "<group>"; };
+		1A5FEE4D2B62AF4D00E6E5FE /* ffmpeg-protocols.pod */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ffmpeg-protocols.pod"; sourceTree = "<group>"; };
+		1A5FEE4E2B62AF4D00E6E5FE /* ffplay-all.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "ffplay-all.1"; sourceTree = "<group>"; };
+		1A5FEE4F2B62AF4D00E6E5FE /* devices.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = devices.texi; sourceTree = "<group>"; };
+		1A5FEE502B62AF4D00E6E5FE /* scaler.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = scaler.texi; sourceTree = "<group>"; };
+		1A5FEE512B62AF4D00E6E5FE /* libavutil.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = libavutil.texi; sourceTree = "<group>"; };
+		1A5FEE522B62AF4D00E6E5FE /* ffplay-all.pod */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ffplay-all.pod"; sourceTree = "<group>"; };
+		1A5FEE532B62AF4D00E6E5FE /* ffprobe.pod */ = {isa = PBXFileReference; lastKnownFileType = text; path = ffprobe.pod; sourceTree = "<group>"; };
+		1A5FEE542B62AF4D00E6E5FE /* ffmpeg-formats.pod.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = "ffmpeg-formats.pod.d"; sourceTree = "<group>"; };
+		1A5FEE552B62AF4D00E6E5FE /* indevs.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = indevs.texi; sourceTree = "<group>"; };
+		1A5FEE562B62AF4D00E6E5FE /* print_options */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = print_options; sourceTree = "<group>"; };
+		1A5FEE572B62AF4D00E6E5FE /* default.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = default.css; sourceTree = "<group>"; };
+		1A5FEE582B62AF4D00E6E5FE /* examples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = examples; sourceTree = "<group>"; };
+		1A5FEE592B62AF4D00E6E5FE /* libswscale.pod.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = libswscale.pod.d; sourceTree = "<group>"; };
+		1A5FEE5A2B62AF4D00E6E5FE /* texidep.pl */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = texidep.pl; sourceTree = "<group>"; };
+		1A5FEE5B2B62AF4D00E6E5FE /* ffplay.pod.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = ffplay.pod.d; sourceTree = "<group>"; };
+		1A5FEE5C2B62AF4D00E6E5FE /* libavdevice.pod */ = {isa = PBXFileReference; lastKnownFileType = text; path = libavdevice.pod; sourceTree = "<group>"; };
+		1A5FEE5D2B62AF4D00E6E5FE /* avoptions_codec.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = avoptions_codec.texi; sourceTree = "<group>"; };
+		1A5FEE5E2B62AF4D00E6E5FE /* ffmpeg-filters.pod.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = "ffmpeg-filters.pod.d"; sourceTree = "<group>"; };
+		1A5FEE5F2B62AF4D00E6E5FE /* ffmpeg-filters.pod */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ffmpeg-filters.pod"; sourceTree = "<group>"; };
+		1A5FEE602B62AF4D00E6E5FE /* libavfilter.pod */ = {isa = PBXFileReference; lastKnownFileType = text; path = libavfilter.pod; sourceTree = "<group>"; };
+		1A5FEE612B62AF4D00E6E5FE /* t2h.pm */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = t2h.pm; sourceTree = "<group>"; };
+		1A5FEE622B62AF4D00E6E5FE /* transforms.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = transforms.md; sourceTree = "<group>"; };
+		1A5FEE632B62AF4D00E6E5FE /* lexicon */ = {isa = PBXFileReference; lastKnownFileType = text; path = lexicon; sourceTree = "<group>"; };
+		1A5FEE642B62AF4D00E6E5FE /* libavformat.pod.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = libavformat.pod.d; sourceTree = "<group>"; };
+		1A5FEE652B62AF4D00E6E5FE /* swscale.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = swscale.txt; sourceTree = "<group>"; };
+		1A5FEE662B62AF4D00E6E5FE /* libavutil.pod.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = libavutil.pod.d; sourceTree = "<group>"; };
+		1A5FEE672B62AF4D00E6E5FE /* libswresample.pod */ = {isa = PBXFileReference; lastKnownFileType = text; path = libswresample.pod; sourceTree = "<group>"; };
+		1A5FEE682B62AF4D00E6E5FE /* ffmpeg-bitstream-filters.pod.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = "ffmpeg-bitstream-filters.pod.d"; sourceTree = "<group>"; };
+		1A5FEE692B62AF4D00E6E5FE /* ffmpeg-bitstream-filters.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "ffmpeg-bitstream-filters.1"; sourceTree = "<group>"; };
+		1A5FEE6A2B62AF4D00E6E5FE /* ffmpeg-protocols.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "ffmpeg-protocols.1"; sourceTree = "<group>"; };
+		1A5FEE6B2B62AF4D00E6E5FE /* ffprobe-all.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "ffprobe-all.1"; sourceTree = "<group>"; };
+		1A5FEE6C2B62AF4D00E6E5FE /* ffmpeg-scaler.pod */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ffmpeg-scaler.pod"; sourceTree = "<group>"; };
+		1A5FEE6D2B62AF4D00E6E5FE /* ffplay.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = ffplay.texi; sourceTree = "<group>"; };
+		1A5FEE6E2B62AF4D00E6E5FE /* dev_community */ = {isa = PBXFileReference; lastKnownFileType = folder; path = dev_community; sourceTree = "<group>"; };
+		1A5FEE6F2B62AF4D00E6E5FE /* ffmpeg-devices.pod.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = "ffmpeg-devices.pod.d"; sourceTree = "<group>"; };
+		1A5FEE702B62AF4D00E6E5FE /* ffmpeg-codecs.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ffmpeg-codecs.texi"; sourceTree = "<group>"; };
+		1A5FEE712B62AF4D00E6E5FE /* ffplay.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ffplay.1; sourceTree = "<group>"; };
+		1A5FEE722B62AF4D00E6E5FE /* Doxyfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Doxyfile; sourceTree = "<group>"; };
+		1A5FEE732B62AF4D00E6E5FE /* ffmpeg.pod */ = {isa = PBXFileReference; lastKnownFileType = text; path = ffmpeg.pod; sourceTree = "<group>"; };
+		1A5FEE742B62AF4D00E6E5FE /* libavcodec.3 */ = {isa = PBXFileReference; lastKnownFileType = text; path = libavcodec.3; sourceTree = "<group>"; };
+		1A5FEE752B62AF4D00E6E5FE /* ffmpeg-protocols.pod.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = "ffmpeg-protocols.pod.d"; sourceTree = "<group>"; };
+		1A5FEE762B62AF4D00E6E5FE /* ffmpeg-scaler.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "ffmpeg-scaler.1"; sourceTree = "<group>"; };
+		1A5FEE772B62AF4D00E6E5FE /* libavutil.3 */ = {isa = PBXFileReference; lastKnownFileType = text; path = libavutil.3; sourceTree = "<group>"; };
+		1A5FEE782B62AF4D00E6E5FE /* libavfilter.3 */ = {isa = PBXFileReference; lastKnownFileType = text; path = libavfilter.3; sourceTree = "<group>"; };
+		1A5FEE792B62AF4D00E6E5FE /* ffmpeg-formats.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ffmpeg-formats.texi"; sourceTree = "<group>"; };
+		1A5FEE7A2B62AF4D00E6E5FE /* ffmpeg.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = ffmpeg.texi; sourceTree = "<group>"; };
+		1A5FEE7B2B62AF4D00E6E5FE /* ffprobe-all.pod.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = "ffprobe-all.pod.d"; sourceTree = "<group>"; };
+		1A5FEE7C2B62AF4D00E6E5FE /* ffmpeg-bitstream-filters.pod */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ffmpeg-bitstream-filters.pod"; sourceTree = "<group>"; };
+		1A5FEE7D2B62AF4D00E6E5FE /* ffmpeg-devices.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "ffmpeg-devices.1"; sourceTree = "<group>"; };
+		1A5FEE7E2B62AF4D00E6E5FE /* doxy */ = {isa = PBXFileReference; lastKnownFileType = folder; path = doxy; sourceTree = "<group>"; };
+		1A5FEE7F2B62AF4D00E6E5FE /* libswscale.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = libswscale.texi; sourceTree = "<group>"; };
+		1A5FEE802B62AF4D00E6E5FE /* utils.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = utils.texi; sourceTree = "<group>"; };
+		1A5FEE812B62AF4D00E6E5FE /* ffprobe.pod.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = ffprobe.pod.d; sourceTree = "<group>"; };
+		1A5FEE822B62AF4D00E6E5FE /* libavformat.3 */ = {isa = PBXFileReference; lastKnownFileType = text; path = libavformat.3; sourceTree = "<group>"; };
+		1A5FEE832B62AF4D00E6E5FE /* ffmpeg-protocols.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ffmpeg-protocols.texi"; sourceTree = "<group>"; };
+		1A5FEE842B62AF4D00E6E5FE /* libavformat.pod */ = {isa = PBXFileReference; lastKnownFileType = text; path = libavformat.pod; sourceTree = "<group>"; };
+		1A5FEE852B62AF4D00E6E5FE /* ffmpeg.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ffmpeg.txt; sourceTree = "<group>"; };
+		1A5FEE862B62AF4D00E6E5FE /* ffmpeg-devices.pod */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ffmpeg-devices.pod"; sourceTree = "<group>"; };
+		1A5FEE872B62AF4D00E6E5FE /* doxy-wrapper.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "doxy-wrapper.sh"; sourceTree = "<group>"; };
+		1A5FEE882B62AF4D00E6E5FE /* print_options.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = print_options.d; sourceTree = "<group>"; };
+		1A5FEE892B62AF4D00E6E5FE /* filters.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = filters.texi; sourceTree = "<group>"; };
+		1A5FEE8A2B62AF4D00E6E5FE /* print_options.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = print_options.c; sourceTree = "<group>"; };
+		1A5FEE8B2B62AF4D00E6E5FE /* git-howto.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = "git-howto.texi"; sourceTree = "<group>"; };
+		1A5FEE8C2B62AF4D00E6E5FE /* ffmpeg-resampler.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ffmpeg-resampler.texi"; sourceTree = "<group>"; };
+		1A5FEE8D2B62AF4D00E6E5FE /* undefined.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = undefined.txt; sourceTree = "<group>"; };
+		1A5FEE8E2B62AF4D00E6E5FE /* muxers.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = muxers.texi; sourceTree = "<group>"; };
+		1A5FEE8F2B62AF4D00E6E5FE /* ffprobe-all.pod */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ffprobe-all.pod"; sourceTree = "<group>"; };
+		1A5FEE902B62AF4D00E6E5FE /* ffmpeg-formats.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "ffmpeg-formats.1"; sourceTree = "<group>"; };
+		1A5FEE912B62AF4D00E6E5FE /* ffmpeg-codecs.pod */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ffmpeg-codecs.pod"; sourceTree = "<group>"; };
+		1A5FEE922B62AF4D00E6E5FE /* libavformat.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = libavformat.texi; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1A5FEDF32B62AF4D00E6E5FE = {
+			isa = PBXGroup;
+			children = (
+				1A5FEDF92B62AF4D00E6E5FE /* ffmpeg-resampler.pod */,
+				1A5FEDFA2B62AF4D00E6E5FE /* ffplay.pod */,
+				1A5FEDFB2B62AF4D00E6E5FE /* libavdevice.pod.d */,
+				1A5FEDFC2B62AF4D00E6E5FE /* libavcodec.texi */,
+				1A5FEDFD2B62AF4D00E6E5FE /* ffplay-all.pod.d */,
+				1A5FEDFE2B62AF4D00E6E5FE /* bootstrap.min.css */,
+				1A5FEDFF2B62AF4D00E6E5FE /* rate_distortion.txt */,
+				1A5FEE002B62AF4D00E6E5FE /* filter_design.txt */,
+				1A5FEE012B62AF4D00E6E5FE /* codecs.texi */,
+				1A5FEE022B62AF4D00E6E5FE /* ffprobe.1 */,
+				1A5FEE032B62AF4D00E6E5FE /* ffmpeg-resampler.pod.d */,
+				1A5FEE042B62AF4D00E6E5FE /* config.texi */,
+				1A5FEE052B62AF4D00E6E5FE /* ffmpeg-scaler.pod.d */,
+				1A5FEE062B62AF4D00E6E5FE /* libswresample.3 */,
+				1A5FEE072B62AF4D00E6E5FE /* libavfilter.texi */,
+				1A5FEE082B62AF4D00E6E5FE /* libavutil.pod */,
+				1A5FEE092B62AF4D00E6E5FE /* libswresample.pod.d */,
+				1A5FEE0A2B62AF4D00E6E5FE /* issue_tracker.txt */,
+				1A5FEE0B2B62AF4D00E6E5FE /* ffmpeg-all.1 */,
+				1A5FEE0C2B62AF4D00E6E5FE /* ffmpeg-devices.texi */,
+				1A5FEE0D2B62AF4D00E6E5FE /* libswscale.pod */,
+				1A5FEE0E2B62AF4D00E6E5FE /* libavdevice.3 */,
+				1A5FEE0F2B62AF4D00E6E5FE /* swresample.txt */,
+				1A5FEE102B62AF4D00E6E5FE /* style.min.css */,
+				1A5FEE112B62AF4D00E6E5FE /* ffmpeg-all.pod.d */,
+				1A5FEE122B62AF4D00E6E5FE /* ffmpeg-filters.1 */,
+				1A5FEE132B62AF4D00E6E5FE /* libavcodec.pod.d */,
+				1A5FEE142B62AF4D00E6E5FE /* snow.txt */,
+				1A5FEE152B62AF4D00E6E5FE /* authors.texi */,
+				1A5FEE162B62AF4D00E6E5FE /* ffmpeg.1 */,
+				1A5FEE172B62AF4D00E6E5FE /* metadata.texi */,
+				1A5FEE182B62AF4D00E6E5FE /* ffmpeg-codecs.1 */,
+				1A5FEE192B62AF4D00E6E5FE /* texi2pod.pl */,
+				1A5FEE1A2B62AF4D00E6E5FE /* platform.texi */,
+				1A5FEE1B2B62AF4D00E6E5FE /* nut.texi */,
+				1A5FEE1C2B62AF4D00E6E5FE /* ffmpeg-utils.pod.d */,
+				1A5FEE1D2B62AF4D00E6E5FE /* encoders.texi */,
+				1A5FEE1E2B62AF4D00E6E5FE /* writing_filters.txt */,
+				1A5FEE1F2B62AF4D00E6E5FE /* bitstream_filters.texi */,
+				1A5FEE202B62AF4D00E6E5FE /* ffmpeg.pod.d */,
+				1A5FEE212B62AF4D00E6E5FE /* errno.txt */,
+				1A5FEE222B62AF4D00E6E5FE /* t2h.init */,
+				1A5FEE232B62AF4D00E6E5FE /* fate.texi */,
+				1A5FEE242B62AF4D00E6E5FE /* fftools-common-opts.texi */,
+				1A5FEE252B62AF4D00E6E5FE /* formats.texi */,
+				1A5FEE262B62AF4D00E6E5FE /* libswscale.3 */,
+				1A5FEE272B62AF4D00E6E5FE /* Makefile */,
+				1A5FEE282B62AF4D00E6E5FE /* resampler.texi */,
+				1A5FEE292B62AF4D00E6E5FE /* ffmpeg-bitstream-filters.texi */,
+				1A5FEE2A2B62AF4D00E6E5FE /* libavdevice.texi */,
+				1A5FEE2B2B62AF4D00E6E5FE /* APIchanges */,
+				1A5FEE2C2B62AF4D00E6E5FE /* general.texi */,
+				1A5FEE2D2B62AF4D00E6E5FE /* ffmpeg-formats.pod */,
+				1A5FEE2E2B62AF4D00E6E5FE /* ffmpeg-utils.1 */,
+				1A5FEE2F2B62AF4D00E6E5FE /* outdevs.texi */,
+				1A5FEE302B62AF4D00E6E5FE /* faq.texi */,
+				1A5FEE312B62AF4D00E6E5FE /* decoders.texi */,
+				1A5FEE322B62AF4D00E6E5FE /* avoptions_format.texi */,
+				1A5FEE332B62AF4D00E6E5FE /* developer.texi */,
+				1A5FEE342B62AF4D00E6E5FE /* ffmpeg-scaler.texi */,
+				1A5FEE352B62AF4D00E6E5FE /* protocols.texi */,
+				1A5FEE362B62AF4D00E6E5FE /* ffprobe.xsd */,
+				1A5FEE372B62AF4D00E6E5FE /* ffmpeg-utils.pod */,
+				1A5FEE382B62AF4D00E6E5FE /* optimization.txt */,
+				1A5FEE392B62AF4D00E6E5FE /* ffprobe.texi */,
+				1A5FEE3A2B62AF4D00E6E5FE /* ffmpeg-codecs.pod.d */,
+				1A5FEE3B2B62AF4D00E6E5FE /* ffmpeg-utils.texi */,
+				1A5FEE3C2B62AF4D00E6E5FE /* patchwork */,
+				1A5FEE3D2B62AF4D00E6E5FE /* general_contents.texi */,
+				1A5FEE3E2B62AF4D00E6E5FE /* multithreading.txt */,
+				1A5FEE3F2B62AF4D00E6E5FE /* ffmpeg-all.pod */,
+				1A5FEE402B62AF4D00E6E5FE /* print_options.o */,
+				1A5FEE412B62AF4D00E6E5FE /* ffmpeg-filters.texi */,
+				1A5FEE422B62AF4D00E6E5FE /* libav-merge.txt */,
+				1A5FEE432B62AF4D00E6E5FE /* ffmpeg-resampler.1 */,
+				1A5FEE442B62AF4D00E6E5FE /* libavfilter.pod.d */,
+				1A5FEE452B62AF4D00E6E5FE /* mailing-list-faq.texi */,
+				1A5FEE462B62AF4D00E6E5FE /* tablegen.txt */,
+				1A5FEE472B62AF4D00E6E5FE /* mips.txt */,
+				1A5FEE482B62AF4D00E6E5FE /* libswresample.texi */,
+				1A5FEE492B62AF4D00E6E5FE /* libavcodec.pod */,
+				1A5FEE4A2B62AF4D00E6E5FE /* fate_config.sh.template */,
+				1A5FEE4B2B62AF4D00E6E5FE /* build_system.txt */,
+				1A5FEE4C2B62AF4D00E6E5FE /* demuxers.texi */,
+				1A5FEE4D2B62AF4D00E6E5FE /* ffmpeg-protocols.pod */,
+				1A5FEE4E2B62AF4D00E6E5FE /* ffplay-all.1 */,
+				1A5FEE4F2B62AF4D00E6E5FE /* devices.texi */,
+				1A5FEE502B62AF4D00E6E5FE /* scaler.texi */,
+				1A5FEE512B62AF4D00E6E5FE /* libavutil.texi */,
+				1A5FEE522B62AF4D00E6E5FE /* ffplay-all.pod */,
+				1A5FEE532B62AF4D00E6E5FE /* ffprobe.pod */,
+				1A5FEE542B62AF4D00E6E5FE /* ffmpeg-formats.pod.d */,
+				1A5FEE552B62AF4D00E6E5FE /* indevs.texi */,
+				1A5FEE562B62AF4D00E6E5FE /* print_options */,
+				1A5FEE572B62AF4D00E6E5FE /* default.css */,
+				1A5FEE582B62AF4D00E6E5FE /* examples */,
+				1A5FEE592B62AF4D00E6E5FE /* libswscale.pod.d */,
+				1A5FEE5A2B62AF4D00E6E5FE /* texidep.pl */,
+				1A5FEE5B2B62AF4D00E6E5FE /* ffplay.pod.d */,
+				1A5FEE5C2B62AF4D00E6E5FE /* libavdevice.pod */,
+				1A5FEE5D2B62AF4D00E6E5FE /* avoptions_codec.texi */,
+				1A5FEE5E2B62AF4D00E6E5FE /* ffmpeg-filters.pod.d */,
+				1A5FEE5F2B62AF4D00E6E5FE /* ffmpeg-filters.pod */,
+				1A5FEE602B62AF4D00E6E5FE /* libavfilter.pod */,
+				1A5FEE612B62AF4D00E6E5FE /* t2h.pm */,
+				1A5FEE622B62AF4D00E6E5FE /* transforms.md */,
+				1A5FEE632B62AF4D00E6E5FE /* lexicon */,
+				1A5FEE642B62AF4D00E6E5FE /* libavformat.pod.d */,
+				1A5FEE652B62AF4D00E6E5FE /* swscale.txt */,
+				1A5FEE662B62AF4D00E6E5FE /* libavutil.pod.d */,
+				1A5FEE672B62AF4D00E6E5FE /* libswresample.pod */,
+				1A5FEE682B62AF4D00E6E5FE /* ffmpeg-bitstream-filters.pod.d */,
+				1A5FEE692B62AF4D00E6E5FE /* ffmpeg-bitstream-filters.1 */,
+				1A5FEE6A2B62AF4D00E6E5FE /* ffmpeg-protocols.1 */,
+				1A5FEE6B2B62AF4D00E6E5FE /* ffprobe-all.1 */,
+				1A5FEE6C2B62AF4D00E6E5FE /* ffmpeg-scaler.pod */,
+				1A5FEE6D2B62AF4D00E6E5FE /* ffplay.texi */,
+				1A5FEE6E2B62AF4D00E6E5FE /* dev_community */,
+				1A5FEE6F2B62AF4D00E6E5FE /* ffmpeg-devices.pod.d */,
+				1A5FEE702B62AF4D00E6E5FE /* ffmpeg-codecs.texi */,
+				1A5FEE712B62AF4D00E6E5FE /* ffplay.1 */,
+				1A5FEE722B62AF4D00E6E5FE /* Doxyfile */,
+				1A5FEE732B62AF4D00E6E5FE /* ffmpeg.pod */,
+				1A5FEE742B62AF4D00E6E5FE /* libavcodec.3 */,
+				1A5FEE752B62AF4D00E6E5FE /* ffmpeg-protocols.pod.d */,
+				1A5FEE762B62AF4D00E6E5FE /* ffmpeg-scaler.1 */,
+				1A5FEE772B62AF4D00E6E5FE /* libavutil.3 */,
+				1A5FEE782B62AF4D00E6E5FE /* libavfilter.3 */,
+				1A5FEE792B62AF4D00E6E5FE /* ffmpeg-formats.texi */,
+				1A5FEE7A2B62AF4D00E6E5FE /* ffmpeg.texi */,
+				1A5FEE7B2B62AF4D00E6E5FE /* ffprobe-all.pod.d */,
+				1A5FEE7C2B62AF4D00E6E5FE /* ffmpeg-bitstream-filters.pod */,
+				1A5FEE7D2B62AF4D00E6E5FE /* ffmpeg-devices.1 */,
+				1A5FEE7E2B62AF4D00E6E5FE /* doxy */,
+				1A5FEE7F2B62AF4D00E6E5FE /* libswscale.texi */,
+				1A5FEE802B62AF4D00E6E5FE /* utils.texi */,
+				1A5FEE812B62AF4D00E6E5FE /* ffprobe.pod.d */,
+				1A5FEE822B62AF4D00E6E5FE /* libavformat.3 */,
+				1A5FEE832B62AF4D00E6E5FE /* ffmpeg-protocols.texi */,
+				1A5FEE842B62AF4D00E6E5FE /* libavformat.pod */,
+				1A5FEE852B62AF4D00E6E5FE /* ffmpeg.txt */,
+				1A5FEE862B62AF4D00E6E5FE /* ffmpeg-devices.pod */,
+				1A5FEE872B62AF4D00E6E5FE /* doxy-wrapper.sh */,
+				1A5FEE882B62AF4D00E6E5FE /* print_options.d */,
+				1A5FEE892B62AF4D00E6E5FE /* filters.texi */,
+				1A5FEE8A2B62AF4D00E6E5FE /* print_options.c */,
+				1A5FEE8B2B62AF4D00E6E5FE /* git-howto.texi */,
+				1A5FEE8C2B62AF4D00E6E5FE /* ffmpeg-resampler.texi */,
+				1A5FEE8D2B62AF4D00E6E5FE /* undefined.txt */,
+				1A5FEE8E2B62AF4D00E6E5FE /* muxers.texi */,
+				1A5FEE8F2B62AF4D00E6E5FE /* ffprobe-all.pod */,
+				1A5FEE902B62AF4D00E6E5FE /* ffmpeg-formats.1 */,
+				1A5FEE912B62AF4D00E6E5FE /* ffmpeg-codecs.pod */,
+				1A5FEE922B62AF4D00E6E5FE /* libavformat.texi */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		1A5FEDF82B62AF4D00E6E5FE /* doc */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 1A5FEE932B62AF4D00E6E5FE /* Build configuration list for PBXLegacyTarget "doc" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/harrychambers/Desktop/ffmpeg-apple-arm64-build-master/ffmpeg/ffmpeg-6.0/doc";
+			dependencies = (
+			);
+			name = doc;
+			passBuildSettingsInEnvironment = 1;
+			productName = doc;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		1A5FEDF42B62AF4D00E6E5FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+			};
+			buildConfigurationList = 1A5FEDF72B62AF4D00E6E5FE /* Build configuration list for PBXProject "doc" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A5FEDF32B62AF4D00E6E5FE;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A5FEDF82B62AF4D00E6E5FE /* doc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		1A5FEDF52B62AF4D00E6E5FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1A5FEDF62B62AF4D00E6E5FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		1A5FEE942B62AF4D00E6E5FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = doc;
+			};
+			name = Debug;
+		};
+		1A5FEE952B62AF4D00E6E5FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = doc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A5FEDF72B62AF4D00E6E5FE /* Build configuration list for PBXProject "doc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A5FEDF52B62AF4D00E6E5FE /* Debug */,
+				1A5FEDF62B62AF4D00E6E5FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A5FEE932B62AF4D00E6E5FE /* Build configuration list for PBXLegacyTarget "doc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A5FEE942B62AF4D00E6E5FE /* Debug */,
+				1A5FEE952B62AF4D00E6E5FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A5FEDF42B62AF4D00E6E5FE /* Project object */;
+}

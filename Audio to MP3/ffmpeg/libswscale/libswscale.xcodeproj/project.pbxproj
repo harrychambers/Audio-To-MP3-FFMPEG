@@ -1,0 +1,274 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXFileReference section */
+		1A5F0B7B2B62AF4D00E6E5FE /* swscale.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = swscale.c; sourceTree = "<group>"; };
+		1A5F0B7C2B62AF4D00E6E5FE /* swscale.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = swscale.d; sourceTree = "<group>"; };
+		1A5F0B7D2B62AF4D00E6E5FE /* utils.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = utils.o; sourceTree = "<group>"; };
+		1A5F0B7E2B62AF4D00E6E5FE /* input.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = input.o; sourceTree = "<group>"; };
+		1A5F0B7F2B62AF4D00E6E5FE /* version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		1A5F0B802B62AF4D00E6E5FE /* version.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = version.o; sourceTree = "<group>"; };
+		1A5F0B812B62AF4D00E6E5FE /* libswscale.pc */ = {isa = PBXFileReference; lastKnownFileType = text; path = libswscale.pc; sourceTree = "<group>"; };
+		1A5F0B822B62AF4D00E6E5FE /* hscale_fast_bilinear.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = hscale_fast_bilinear.o; sourceTree = "<group>"; };
+		1A5F0B832B62AF4D00E6E5FE /* hscale.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = hscale.o; sourceTree = "<group>"; };
+		1A5F0B842B62AF4D00E6E5FE /* gamma.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gamma.c; sourceTree = "<group>"; };
+		1A5F0B852B62AF4D00E6E5FE /* gamma.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = gamma.d; sourceTree = "<group>"; };
+		1A5F0B862B62AF4D00E6E5FE /* yuv2rgb.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = yuv2rgb.d; sourceTree = "<group>"; };
+		1A5F0B872B62AF4D00E6E5FE /* yuv2rgb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = yuv2rgb.c; sourceTree = "<group>"; };
+		1A5F0B882B62AF4D00E6E5FE /* libswscale.v */ = {isa = PBXFileReference; lastKnownFileType = text; path = libswscale.v; sourceTree = "<group>"; };
+		1A5F0B892B62AF4D00E6E5FE /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		1A5F0B8A2B62AF4D00E6E5FE /* rgb2rgb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rgb2rgb.h; sourceTree = "<group>"; };
+		1A5F0B8B2B62AF4D00E6E5FE /* log2_tab.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = log2_tab.c; sourceTree = "<group>"; };
+		1A5F0B8C2B62AF4D00E6E5FE /* rgb2rgb.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = rgb2rgb.o; sourceTree = "<group>"; };
+		1A5F0B8D2B62AF4D00E6E5FE /* alphablend.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = alphablend.c; sourceTree = "<group>"; };
+		1A5F0B8E2B62AF4D00E6E5FE /* ppc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ppc; sourceTree = "<group>"; };
+		1A5F0B8F2B62AF4D00E6E5FE /* alphablend.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = alphablend.d; sourceTree = "<group>"; };
+		1A5F0B902B62AF4D00E6E5FE /* swscale_unscaled.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = swscale_unscaled.d; sourceTree = "<group>"; };
+		1A5F0B912B62AF4D00E6E5FE /* swscale_unscaled.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = swscale_unscaled.c; sourceTree = "<group>"; };
+		1A5F0B922B62AF4D00E6E5FE /* slice.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = slice.o; sourceTree = "<group>"; };
+		1A5F0B932B62AF4D00E6E5FE /* tests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tests; sourceTree = "<group>"; };
+		1A5F0B942B62AF4D00E6E5FE /* bayer_template.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bayer_template.c; sourceTree = "<group>"; };
+		1A5F0B952B62AF4D00E6E5FE /* half2float.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = half2float.c; sourceTree = "<group>"; };
+		1A5F0B962B62AF4D00E6E5FE /* half2float.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = half2float.d; sourceTree = "<group>"; };
+		1A5F0B972B62AF4D00E6E5FE /* libswscale.version */ = {isa = PBXFileReference; lastKnownFileType = text; path = libswscale.version; sourceTree = "<group>"; };
+		1A5F0B982B62AF4D00E6E5FE /* swscale_internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = swscale_internal.h; sourceTree = "<group>"; };
+		1A5F0B992B62AF4D00E6E5FE /* output.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = output.o; sourceTree = "<group>"; };
+		1A5F0B9A2B62AF4D00E6E5FE /* options.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = options.o; sourceTree = "<group>"; };
+		1A5F0B9B2B62AF4D00E6E5FE /* vscale.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = vscale.o; sourceTree = "<group>"; };
+		1A5F0B9C2B62AF4D00E6E5FE /* loongarch */ = {isa = PBXFileReference; lastKnownFileType = folder; path = loongarch; sourceTree = "<group>"; };
+		1A5F0B9D2B62AF4D00E6E5FE /* input.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = input.c; sourceTree = "<group>"; };
+		1A5F0B9E2B62AF4D00E6E5FE /* input.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = input.d; sourceTree = "<group>"; };
+		1A5F0B9F2B62AF4D00E6E5FE /* utils.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = utils.c; sourceTree = "<group>"; };
+		1A5F0BA02B62AF4D00E6E5FE /* utils.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = utils.d; sourceTree = "<group>"; };
+		1A5F0BA12B62AF4D00E6E5FE /* rgb2rgb_template.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rgb2rgb_template.c; sourceTree = "<group>"; };
+		1A5F0BA22B62AF4D00E6E5FE /* swscale.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = swscale.o; sourceTree = "<group>"; };
+		1A5F0BA32B62AF4D00E6E5FE /* swscale.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = swscale.h; sourceTree = "<group>"; };
+		1A5F0BA42B62AF4D00E6E5FE /* x86 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = x86; sourceTree = "<group>"; };
+		1A5F0BA52B62AF4D00E6E5FE /* version_major.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = version_major.h; sourceTree = "<group>"; };
+		1A5F0BA62B62AF4D00E6E5FE /* gamma.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = gamma.o; sourceTree = "<group>"; };
+		1A5F0BA72B62AF4D00E6E5FE /* hscale_fast_bilinear.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hscale_fast_bilinear.c; sourceTree = "<group>"; };
+		1A5F0BA82B62AF4D00E6E5FE /* hscale.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hscale.c; sourceTree = "<group>"; };
+		1A5F0BA92B62AF4D00E6E5FE /* hscale_fast_bilinear.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = hscale_fast_bilinear.d; sourceTree = "<group>"; };
+		1A5F0BAA2B62AF4D00E6E5FE /* hscale.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = hscale.d; sourceTree = "<group>"; };
+		1A5F0BAB2B62AF4D00E6E5FE /* version.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = version.d; sourceTree = "<group>"; };
+		1A5F0BAC2B62AF4D00E6E5FE /* version.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = version.c; sourceTree = "<group>"; };
+		1A5F0BAD2B62AF4D00E6E5FE /* slice.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = slice.d; sourceTree = "<group>"; };
+		1A5F0BAE2B62AF4D00E6E5FE /* slice.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = slice.c; sourceTree = "<group>"; };
+		1A5F0BAF2B62AF4D00E6E5FE /* swscale_unscaled.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = swscale_unscaled.o; sourceTree = "<group>"; };
+		1A5F0BB02B62AF4D00E6E5FE /* alphablend.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = alphablend.o; sourceTree = "<group>"; };
+		1A5F0BB12B62AF4D00E6E5FE /* arm */ = {isa = PBXFileReference; lastKnownFileType = folder; path = arm; sourceTree = "<group>"; };
+		1A5F0BB22B62AF4D00E6E5FE /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libswscale.a; sourceTree = "<group>"; };
+		1A5F0BB32B62AF4D00E6E5FE /* rgb2rgb.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = rgb2rgb.d; sourceTree = "<group>"; };
+		1A5F0BB42B62AF4D00E6E5FE /* rgb2rgb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rgb2rgb.c; sourceTree = "<group>"; };
+		1A5F0BB52B62AF4D00E6E5FE /* yuv2rgb.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = yuv2rgb.o; sourceTree = "<group>"; };
+		1A5F0BB62B62AF4D00E6E5FE /* riscv */ = {isa = PBXFileReference; lastKnownFileType = folder; path = riscv; sourceTree = "<group>"; };
+		1A5F0BB72B62AF4D00E6E5FE /* vscale.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = vscale.d; sourceTree = "<group>"; };
+		1A5F0BB82B62AF4D00E6E5FE /* aarch64 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = aarch64; sourceTree = "<group>"; };
+		1A5F0BB92B62AF4D00E6E5FE /* vscale.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = vscale.c; sourceTree = "<group>"; };
+		1A5F0BBA2B62AF4D00E6E5FE /* swscaleres.rc */ = {isa = PBXFileReference; lastKnownFileType = text; path = swscaleres.rc; sourceTree = "<group>"; };
+		1A5F0BBB2B62AF4D00E6E5FE /* options.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = options.d; sourceTree = "<group>"; };
+		1A5F0BBC2B62AF4D00E6E5FE /* output.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = output.c; sourceTree = "<group>"; };
+		1A5F0BBD2B62AF4D00E6E5FE /* options.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = options.c; sourceTree = "<group>"; };
+		1A5F0BBE2B62AF4D00E6E5FE /* output.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = output.d; sourceTree = "<group>"; };
+		1A5F0BBF2B62AF4D00E6E5FE /* half2float.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = half2float.o; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1A5F0B752B62AF4D00E6E5FE = {
+			isa = PBXGroup;
+			children = (
+				1A5F0B7B2B62AF4D00E6E5FE /* swscale.c */,
+				1A5F0B7C2B62AF4D00E6E5FE /* swscale.d */,
+				1A5F0B7D2B62AF4D00E6E5FE /* utils.o */,
+				1A5F0B7E2B62AF4D00E6E5FE /* input.o */,
+				1A5F0B7F2B62AF4D00E6E5FE /* version.h */,
+				1A5F0B802B62AF4D00E6E5FE /* version.o */,
+				1A5F0B812B62AF4D00E6E5FE /* libswscale.pc */,
+				1A5F0B822B62AF4D00E6E5FE /* hscale_fast_bilinear.o */,
+				1A5F0B832B62AF4D00E6E5FE /* hscale.o */,
+				1A5F0B842B62AF4D00E6E5FE /* gamma.c */,
+				1A5F0B852B62AF4D00E6E5FE /* gamma.d */,
+				1A5F0B862B62AF4D00E6E5FE /* yuv2rgb.d */,
+				1A5F0B872B62AF4D00E6E5FE /* yuv2rgb.c */,
+				1A5F0B882B62AF4D00E6E5FE /* libswscale.v */,
+				1A5F0B892B62AF4D00E6E5FE /* Makefile */,
+				1A5F0B8A2B62AF4D00E6E5FE /* rgb2rgb.h */,
+				1A5F0B8B2B62AF4D00E6E5FE /* log2_tab.c */,
+				1A5F0B8C2B62AF4D00E6E5FE /* rgb2rgb.o */,
+				1A5F0B8D2B62AF4D00E6E5FE /* alphablend.c */,
+				1A5F0B8E2B62AF4D00E6E5FE /* ppc */,
+				1A5F0B8F2B62AF4D00E6E5FE /* alphablend.d */,
+				1A5F0B902B62AF4D00E6E5FE /* swscale_unscaled.d */,
+				1A5F0B912B62AF4D00E6E5FE /* swscale_unscaled.c */,
+				1A5F0B922B62AF4D00E6E5FE /* slice.o */,
+				1A5F0B932B62AF4D00E6E5FE /* tests */,
+				1A5F0B942B62AF4D00E6E5FE /* bayer_template.c */,
+				1A5F0B952B62AF4D00E6E5FE /* half2float.c */,
+				1A5F0B962B62AF4D00E6E5FE /* half2float.d */,
+				1A5F0B972B62AF4D00E6E5FE /* libswscale.version */,
+				1A5F0B982B62AF4D00E6E5FE /* swscale_internal.h */,
+				1A5F0B992B62AF4D00E6E5FE /* output.o */,
+				1A5F0B9A2B62AF4D00E6E5FE /* options.o */,
+				1A5F0B9B2B62AF4D00E6E5FE /* vscale.o */,
+				1A5F0B9C2B62AF4D00E6E5FE /* loongarch */,
+				1A5F0B9D2B62AF4D00E6E5FE /* input.c */,
+				1A5F0B9E2B62AF4D00E6E5FE /* input.d */,
+				1A5F0B9F2B62AF4D00E6E5FE /* utils.c */,
+				1A5F0BA02B62AF4D00E6E5FE /* utils.d */,
+				1A5F0BA12B62AF4D00E6E5FE /* rgb2rgb_template.c */,
+				1A5F0BA22B62AF4D00E6E5FE /* swscale.o */,
+				1A5F0BA32B62AF4D00E6E5FE /* swscale.h */,
+				1A5F0BA42B62AF4D00E6E5FE /* x86 */,
+				1A5F0BA52B62AF4D00E6E5FE /* version_major.h */,
+				1A5F0BA62B62AF4D00E6E5FE /* gamma.o */,
+				1A5F0BA72B62AF4D00E6E5FE /* hscale_fast_bilinear.c */,
+				1A5F0BA82B62AF4D00E6E5FE /* hscale.c */,
+				1A5F0BA92B62AF4D00E6E5FE /* hscale_fast_bilinear.d */,
+				1A5F0BAA2B62AF4D00E6E5FE /* hscale.d */,
+				1A5F0BAB2B62AF4D00E6E5FE /* version.d */,
+				1A5F0BAC2B62AF4D00E6E5FE /* version.c */,
+				1A5F0BAD2B62AF4D00E6E5FE /* slice.d */,
+				1A5F0BAE2B62AF4D00E6E5FE /* slice.c */,
+				1A5F0BAF2B62AF4D00E6E5FE /* swscale_unscaled.o */,
+				1A5F0BB02B62AF4D00E6E5FE /* alphablend.o */,
+				1A5F0BB12B62AF4D00E6E5FE /* arm */,
+				1A5F0BB22B62AF4D00E6E5FE /* libswscale.a */,
+				1A5F0BB32B62AF4D00E6E5FE /* rgb2rgb.d */,
+				1A5F0BB42B62AF4D00E6E5FE /* rgb2rgb.c */,
+				1A5F0BB52B62AF4D00E6E5FE /* yuv2rgb.o */,
+				1A5F0BB62B62AF4D00E6E5FE /* riscv */,
+				1A5F0BB72B62AF4D00E6E5FE /* vscale.d */,
+				1A5F0BB82B62AF4D00E6E5FE /* aarch64 */,
+				1A5F0BB92B62AF4D00E6E5FE /* vscale.c */,
+				1A5F0BBA2B62AF4D00E6E5FE /* swscaleres.rc */,
+				1A5F0BBB2B62AF4D00E6E5FE /* options.d */,
+				1A5F0BBC2B62AF4D00E6E5FE /* output.c */,
+				1A5F0BBD2B62AF4D00E6E5FE /* options.c */,
+				1A5F0BBE2B62AF4D00E6E5FE /* output.d */,
+				1A5F0BBF2B62AF4D00E6E5FE /* half2float.o */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		1A5F0B7A2B62AF4D00E6E5FE /* libswscale */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 1A5F0BC02B62AF4D00E6E5FE /* Build configuration list for PBXLegacyTarget "libswscale" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/harrychambers/Desktop/ffmpeg-apple-arm64-build-master/ffmpeg/ffmpeg-6.0/libswscale";
+			dependencies = (
+			);
+			name = libswscale;
+			passBuildSettingsInEnvironment = 1;
+			productName = libswscale;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		1A5F0B762B62AF4D00E6E5FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+			};
+			buildConfigurationList = 1A5F0B792B62AF4D00E6E5FE /* Build configuration list for PBXProject "libswscale" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A5F0B752B62AF4D00E6E5FE;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A5F0B7A2B62AF4D00E6E5FE /* libswscale */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		1A5F0B772B62AF4D00E6E5FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1A5F0B782B62AF4D00E6E5FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		1A5F0BC12B62AF4D00E6E5FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = libswscale;
+			};
+			name = Debug;
+		};
+		1A5F0BC22B62AF4D00E6E5FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = libswscale;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A5F0B792B62AF4D00E6E5FE /* Build configuration list for PBXProject "libswscale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A5F0B772B62AF4D00E6E5FE /* Debug */,
+				1A5F0B782B62AF4D00E6E5FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A5F0BC02B62AF4D00E6E5FE /* Build configuration list for PBXLegacyTarget "libswscale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A5F0BC12B62AF4D00E6E5FE /* Debug */,
+				1A5F0BC22B62AF4D00E6E5FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A5F0B762B62AF4D00E6E5FE /* Project object */;
+}
